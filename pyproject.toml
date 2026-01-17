@@ -1,7 +1,7 @@
 [project]
-name = "krx-mcp-v2"
-version = "0.1.0"
-description = "Add your description here"
+name = "krx-stock-mcp"
+version = "0.1.1"
+description = "KRX-Stock MCP: KRX(한국거래소) API를 활용해 주식 정보를 조회하는 MCP 서버"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -9,6 +9,7 @@ dependencies = [
     "fastmcp>=2.14.1",
     "httpx>=0.28.1",
     "mcp[cli]>=1.11.0",
+    "pydantic>=2.12.5",
     "python-dotenv>=1.1.1",
     "requests>=2.32.4",
     "tzdata>=2025.2",

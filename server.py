@@ -3,6 +3,7 @@ from typing import Optional, Literal
 from zoneinfo import ZoneInfo
 from datetime import date, datetime, timedelta
 from krx_client import KrxStockClient
+from schema import RequestModel
 
 from mcp.server.fastmcp import FastMCP
 
@@ -45,9 +46,7 @@ class KrxStockServer:
         """A wrapper function for a MCP tool defined inside"""
         @self.mcp.tool()
         async def get_stock_info_by_date(
-            stock: str,
-            market: Literal['코스피','코스닥','코넥스','알수없음'] = '알수없음',
-            date: Optional[str] = None,
+            request: RequestModel 
         ) -> str:
             """
             한국거래소(KRX) API를 활용해 사용자가 요구한 날짜의 주식 종목별 '기본 정보'를 조회합니다.
@@ -67,9 +66,9 @@ class KrxStockServer:
                      유효한 정보가 없을 경우, 이 사실을 알리는 문자열을 반환한다.
             """
             return await self.get_stock_info(
-                stock=stock,
-                market=market,
-                date=date,
+                stock=request.stock,
+                market=request.market,
+                date=request.date,
             )
 
 
@@ -77,9 +76,7 @@ class KrxStockServer:
         """A wrapper function for a MCP tool defined inside"""
         @self.mcp.tool()
         async def get_stock_price_by_date(
-            stock: str,
-            market: Literal['코스피','코스닥','코넥스','알수없음'] = '알수없음',
-            date: Optional[str] = None,
+            request: RequestModel 
         ) -> str:
             """
             한국거래소(KRX) API를 활용해 사용자가 요구한 날짜의 주식 종목별 '기본 정보'를 조회한다.
@@ -99,9 +96,9 @@ class KrxStockServer:
                      유효한 정보가 없을 경우, 이 사실을 알리는 문자열을 반환합니다.
             """
             return await self.get_stock_price(
-                stock=stock,
-                market=market,
-                date=date,
+                stock=request.stock,
+                market=request.market,
+                date=request.date,
             )
         
 
