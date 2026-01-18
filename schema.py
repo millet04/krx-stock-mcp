@@ -2,7 +2,7 @@ from datetime import datetime
 from typing import Optional, Literal
 from pydantic import BaseModel, Field, field_validator
 
-class RequestModel(BaseModel):
+class ToolRequestModel(BaseModel):
     stock: str = Field(
         description = "정보를 조회하고자 하는 종목의 이름",
         example = "삼성전자",
