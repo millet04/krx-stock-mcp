@@ -22,5 +22,5 @@ if __name__ == "__main__":
     args = parse_args()
 
     server = KrxStockServer(args)
-    server.register_mcp_tools()
+    server.register_mcp_primitives()
     server.run_server()
