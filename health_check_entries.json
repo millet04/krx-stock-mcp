@@ -1,0 +1,20 @@
+{
+    "get_stock_info_by_date":[
+        {"stock":"NH프라임리츠보통주", "market":"알수없음", "date":"20200414"},
+        {"stock":"엘브이엠씨홀딩스보통주", "market":"알수없음", "date":"20200414"}, 
+        {"stock":"SBI핀테크솔루션즈", "market":"알수없음", "date":"20200414"}, 
+        {"stock":"다원넥스뷰", "market":"알수없음", "date":"20200414"},         
+        {"stock":"NH프라임리츠보통주", "market":"알수없음", "date":"20200417"},
+        {"stock":"NH프라임리츠보통주", "market":"알수없음", "date":"20200416"},
+        {"stock":"NH프라임리츠보통주", "market":"알수없음", "date":"20200414"}
+    ],
+    "get_stock_price_by_date":[
+        {"stock":"맥쿼리인프라", "market":"알수없음", "date":"20200414"},
+        {"stock":"에이리츠", "market":"알수없음", "date":"20200414"}, 
+        {"stock":"뉴프라이드코퍼레이션", "market":"알수없음", "date":"20200414"}, 
+        {"stock":"미코바이오메드", "market":"알수없음", "date":"20200414"},         
+        {"stock":"맥쿼리인프라", "market":"알수없음", "date":"20200417"},
+        {"stock":"맥쿼리인프라", "market":"알수없음", "date":"20200416"},
+        {"stock":"맥쿼리인프라", "market":"알수없음", "date":"20200414"}
+    ]
+}
