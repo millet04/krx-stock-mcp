@@ -1,19 +1,28 @@
+import sys
 import json
+from collections import defaultdict
 from typing import Optional, Literal
-from zoneinfo import ZoneInfo
 from krx_client import KrxStockClient
+from cache import KrxStockInfoCache, KrxStockPriceCache
+from watcher import KrxDateWatcher
+
 from schema import ToolRequestModel
-from utils import get_latest_open_date
+from utils import get_latest_open_date, LOGGER
 
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
-KST = ZoneInfo("Asia/Seoul")
 
 class KrxStockServer:
 
     def __init__(self, args):
         self.mcp = FastMCP(args.server_name)
         self.client = KrxStockClient()
+        self.si_cache = KrxStockInfoCache(max_size=args.si_cache_size)
+        self.sp_cache = KrxStockPriceCache(max_size=args.sp_cache_size)
+        self.watcher = KrxDateWatcher(
+            callback = self._on_new_open_date,
+            interval = 30,
+        )
 
         self.market_mapper = {
             "코스피":"stk",
@@ -28,21 +37,44 @@ class KrxStockServer:
         self._register_get_time_range_by_market()
 
 
-    def run_server(self) -> None:
+    def run_server(self, kwargs) -> None:
         """Run MCP Server with scheduler"""        
         try:
-            print(f"Server is running...")
-            self.mcp.run(transport="stdio")
+            LOGGER.info(f"[Server] Server is running...")
+            self.watcher.run()
+            self.mcp.run(**kwargs)
         except Exception as e:
-            print(f"Server error: {e}")
+            LOGGER.exception(f"[Server] Fatal error occurred")
             self.stop_server()
 
 
     def stop_server(self) -> None:
         """Stop MCP Server with scheduler"""
-        print("Server stopped gracefully.")
+        LOGGER.info("[Server] Stopping server components")
+        self.watcher.stop()
+        sys.exit(1)
 
-    
+
+    def _on_new_open_date(self) -> None:
+        """A callback function to update the latest opening date"""
+        latest_date =  get_latest_open_date()
+        LOGGER.info(f"[Server] Latest Available Date in KRX API: {latest_date}")
+
+        if self.si_cache.latest_date != latest_date:
+            si_latest_dict = defaultdict(dict)
+            for market in self.market_mapper.keys():
+                si_latest = self.client.fetch_stock_info_sync(latest_date, market)
+                si_latest_dict[(latest_date, market)] = si_latest
+            self.si_cache.update_latest(latest_date, si_latest_dict)
+
+        if self.sp_cache.latest_date != latest_date:
+            sp_latest_dict = defaultdict(dict)
+            for market in self.market_mapper.keys():
+                sp_latest = self.client.fetch_stock_info_sync(latest_date, market)
+                sp_latest_dict[(latest_date, market)] = sp_latest
+            self.sp_cache.update_latest(latest_date, sp_latest_dict)
+
+
     def _register_get_time_range_by_market(self):
         """A wrapper function for a MCP resource defined inside"""
         @self.mcp.resource("resource://time-range")
@@ -135,19 +167,23 @@ class KrxStockServer:
         if not date:
             date = get_latest_open_date()
 
-        if market == '알수없음':
-            for mkt in list(self.market_mapper.keys()):
-                mkt_code = self.market_mapper[mkt]
-                stock_info = await self.client.fetch_stock_info(date, mkt_code)
-                target = stock_info.get(stock, {})
-                if target:
-                    break
-        else:  
-            mkt_code = self.market_mapper[market] 
+        markets = [market] if market != '알수없음' else list(self.market_mapper.keys())
+
+        for mkt in markets:
+            mkt_code = self.market_mapper[mkt]
+            target = self.si_cache.get(date, mkt_code, stock)             
+            if target:
+                return json.dumps(target)
+                
+        for mkt in markets:
+            mkt_code = self.market_mapper[mkt]
             stock_info = await self.client.fetch_stock_info(date, mkt_code)
             target = stock_info.get(stock, {})
-        
-        return json.dumps(target)
+            if target:
+                self.si_cache.push(date, mkt_code, stock_info)
+                return json.dumps(target)
+
+        return json.dumps({})
             
     
     async def get_stock_price(
@@ -160,16 +196,20 @@ class KrxStockServer:
         if not date:
             date = get_latest_open_date()
 
-        if market == '알수없음':
-            for mkt in list(self.market_mapper.keys()):
-                mkt_code = self.market_mapper[mkt]
-                stock_price = await self.client.fetch_stock_price(date, mkt_code)
-                target = stock_price.get(stock, {})
-                if target:
-                    break
-        else:
-            mkt_code = self.market_mapper[market]   
+        markets = [market] if market != '알수없음' else list(self.market_mapper.keys())
+
+        for mkt in markets:
+            mkt_code = self.market_mapper[mkt]
+            target = self.sp_cache.get(date, mkt_code, stock)
+            if target:
+                return json.dumps(target)
+                
+        for mkt in markets:
+            mkt_code = self.market_mapper[mkt]
             stock_price = await self.client.fetch_stock_price(date, mkt_code)
             target = stock_price.get(stock, {})
-            
-        return json.dumps(target)
+            if target:
+                self.sp_cache.push(date, mkt_code, stock_price)
+                return json.dumps(target)
+
+        return json.dumps({})
