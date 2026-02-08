@@ -1,6 +1,11 @@
-# KRX-Stock MCP Server
+<div align="center">
 
-![Version](https://img.shields.io/github/v/tag/millet04/krx-stock-mcp)
+## KRX-Stock MCP Server
+
+![Version](https://img.shields.io/github/v/release/millet04/krx-stock-mcp)
+![Python](https://img.shields.io/badge/python-%3E%3D3.13-blue)
+
+</div>
 
 ## 1. Overview
 KRX(한국거래소) API를 활용해 국내 주식 시장(KOSPI, KOSDAQ, KONEX)에 상장된 종목의 **주가**와 **종목정보**를 제공하는 MCP 서버입니다. 로컬 환경의 Claud Desktop 에서 사용할 수 있습니다.  
