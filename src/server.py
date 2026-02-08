@@ -2,12 +2,13 @@ import sys
 import json
 from collections import defaultdict
 from typing import Optional, Literal
-from krx_client import KrxStockClient
-from cache import KrxStockInfoCache, KrxStockPriceCache
-from watcher import KrxDateWatcher
+from src.krx_client import KrxStockClient
+from src.cache import KrxStockInfoCache, KrxStockPriceCache
+from src.watcher import KrxDateWatcher
 
-from schema import ToolRequestModel
-from utils import get_latest_open_date, LOGGER
+from src.descriptions.loader import load_description 
+from src.schemas.schema import ToolRequestModel
+from src.utils import get_latest_open_date, LOGGER
 
 from fastmcp import FastMCP
 
@@ -97,28 +98,13 @@ class KrxStockServer:
 
     def _register_get_stock_info_by_date(self) -> None:
         """A wrapper function for a MCP tool defined inside"""
-        @self.mcp.tool()
+        @self.mcp.tool(description=load_description(
+                path="src/descriptions/get_stock_info_by_date.yaml",
+                latest_date=get_latest_open_date()
+        ))
         async def get_stock_info_by_date(
             request: ToolRequestModel 
         ) -> str:
-            """
-            한국거래소(KRX) API를 활용해 사용자가 요구한 날짜의 주식 종목별 '기본 정보'를 조회합니다.
-        
-            <주의사항>
-            - 사용자가 당일 정보를 요구하거나 사용자의 질의에 날짜 정보가 없으면, 전일 기준으로 조회합니다.
-            - 사용자가 요구하는 종목이 '우선주'라는 언급이 없으면, '보통주'로 처리한다. 예) 삼성전자 -> 삼성전자보통주
-            - 한국거래소 API 사용 규정상, 출력에 어떠한 추가적인 설명이나 해설을 제시해서는 안 된다.  
-
-            Args:
-                request (ToolRequestModel): 종목 기본 정보 조회를 위한 파라미터 모델
-                - request.stock (str): 기본 정보를 조회할 주식 종목명
-                - request.market (Literal['코스피','코스닥','코넥스','알수없음']): 조회할 주식이 속한 주식 시장. 판단이 어려울 경우 '알수없음'을 전달.
-                - request.date (Optional[str]): 조회 기준 날짜 문자열 (예: '20250627'). 판단이 어려울 경우 None을 전달.
-    
-            Returns:
-                str: 조회된 종목들의 거래 정보를 종합해 MarkDown 형식으로 반환한다.
-                     유효한 정보가 없을 경우, 이 사실을 알리는 문자열을 반환한다.
-            """
             return await self.get_stock_info(
                 stock=request.stock,
                 market=request.market,
@@ -128,28 +114,13 @@ class KrxStockServer:
 
     def _register_get_stock_price_by_date(self) -> None: 
         """A wrapper function for a MCP tool defined inside"""
-        @self.mcp.tool()
+        @self.mcp.tool(description=load_description(
+                path="src/descriptions/get_stock_price_by_date.yaml",
+                latest_date=get_latest_open_date()
+        ))
         async def get_stock_price_by_date(
             request: ToolRequestModel 
         ) -> str:
-            """
-            한국거래소(KRX) API를 활용해 사용자가 요구한 날짜의 주식 종목별 '기본 정보'를 조회한다.
-    
-            <주의사항>
-            - 사용자가 당일 정보를 요구하거나 사용자의 질의에 날짜 정보가 없으면, 전일 기준으로 조회한다.
-            - 사용자가 요구하는 종목이 우선주라는 언급이 없으면, 보통주로 처리한다. 예) 삼성전자 -> 삼성전자보통주
-            - 한국거래소 API 사용 규정상, 출력에 어떠한 추가적인 설명이나 해설을 제시해서는 안 된다.        
-
-            Args:
-                request (ToolRequestModel): 종목 주가 정보 조회를 위한 파라미터 모델
-                - request.stock (str): 기본 정보를 조회할 주식 종목명
-                - request.market (Literal['코스피','코스닥','코넥스','알수없음']): 조회할 주식이 속한 주식 시장. 판단이 어려울 경우 '알수없음'을 전달.
-                - request.date (Optional[str]): 조회 기준 날짜 문자열 (예: '20250627'). 판단이 어려울 경우 None을 전달.
-    
-            Returns:
-                str: 조회된 종목들의 기본 정보를 종합해 MarkDown 표로 반환합니다.
-                     유효한 정보가 없을 경우, 이 사실을 알리는 문자열을 반환합니다.
-            """
             return await self.get_stock_price(
                 stock=request.stock,
                 market=request.market,
