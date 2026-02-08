@@ -1,7 +1,7 @@
 from abc import ABC
 from typing import Optional, Dict, Tuple
 from collections import OrderedDict
-from utils import LOGGER
+from src.utils import LOGGER
 
 
 class BaseCache(ABC):

@@ -2,7 +2,7 @@ import time
 import threading
 from datetime import datetime
 from typing import Callable, Optional
-from utils import KST, LOGGER
+from src.utils import KST, LOGGER
 
 class KrxDateWatcher:
 

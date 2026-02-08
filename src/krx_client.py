@@ -2,7 +2,7 @@ import os
 import aiohttp
 import requests
 from typing import Dict, Any
-from utils import LOGGER
+from src.utils import LOGGER
 
 class KrxStockClient:
 
