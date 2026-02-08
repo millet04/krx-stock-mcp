@@ -4,8 +4,8 @@ import asyncio
 import argparse
 from typing import List, Dict
 from urllib.parse import urlunparse
-from schema import ToolRequestModel
-from utils import LOGGER
+from src.schemas.schema import ToolRequestModel
+from src.utils import LOGGER
 
 from fastmcp import Client
 

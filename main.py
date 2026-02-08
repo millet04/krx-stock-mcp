@@ -1,5 +1,5 @@
 import argparse
-from server import KrxStockServer
+from src.server import KrxStockServer
 
 from dotenv import load_dotenv
 
