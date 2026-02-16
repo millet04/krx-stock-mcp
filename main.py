@@ -1,3 +1,4 @@
+import asyncio
 import argparse
 from src.server import KrxStockServer
 
@@ -42,13 +43,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--si_cache_size",
         type=int,
-        default=2,
+        default=3,
         help="종목 기본 정보를 담는 캐시의 최대 사이즈"
     )
     parser.add_argument(
         "--sp_cache_size",
         type=int,
-        default=2,
+        default=10,
         help="종목 주가 정보를 담는 캐시의 최대 사이즈"
     )
     
@@ -70,4 +71,4 @@ if __name__ == "__main__":
 
     server = KrxStockServer(args)
     server.register_mcp_primitives()
-    server.run_server(kwargs)
+    asyncio.run(server.run_server(kwargs))
