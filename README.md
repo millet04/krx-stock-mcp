@@ -4,6 +4,7 @@
 
 ![Version](https://img.shields.io/github/v/release/millet04/krx-stock-mcp)
 ![Python](https://img.shields.io/badge/python-%3E%3D3.13-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 </div>
 
@@ -18,7 +19,8 @@ KRX(한국거래소) API를 활용해 국내 주식 시장(KOSPI, KOSDAQ, KONEX)
 - **get_stock_price_by_date** : 주어진 종목의 **주가정보**를 제공합니다. 구체적인 날짜가 주어지지 않을 경우 최근 개장일 기준으로 검색하며, 시장명이 주어지지 않을 경우 KOSPI · KOSDAQ · KONEX 에서 모두 검색합니다.     
 
 ### 2.2. Resource
-- **get_time_range_by_market** : KRX-Stock 서버에서 조회 가능한 정보의 날짜 범위를 제공합니다. 예를 들어, KOSPI의 경우 2010년 1월 4일부터 현재 기준 하루 전날 정보까지 조회할 수 있습니다.
+- **get_time_range_by_market** : KRX-Stock 서버에서 조회 가능한 정보의 날짜 범위를 제공합니다. 예를 들어, KOSPI의 경우 2010년 1월 4일부터 현재 기준 하루 전날 정보까지 조회할 수 있습니다. *(이 기능은 v0.3.0에서 삭제될 예정입니다.)*
+
 
 ## 3. Enhancements
 
