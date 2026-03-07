@@ -1,12 +1,19 @@
 from datetime import datetime
 from typing import Optional, Literal
-from pydantic import BaseModel, Field, field_validator
+from pydantic import (
+    BaseModel, Field, field_validator, model_validator
+)
 
 class ToolRequestModel(BaseModel):
-    stock: str = Field(
-        ...,
+    stock: Optional[str] = Field(
+        default = None,
         description = "정보를 조회하고자 하는 종목의 이름",
         examples = ["삼성전자"]
+    )
+    ticker: Optional[str] = Field(
+        default = None,
+        description = "정보를 조회하고자 하는 종목이 속한 주식 시장",
+        examples = ["005930", "KR7338100001"]
     )
     market: Literal["코스피", "코스닥", "코넥스", "알수없음"] = Field(
         default = "알수없음",
@@ -19,17 +26,33 @@ class ToolRequestModel(BaseModel):
         examples = ["20250103"]
     )
 
+    @model_validator(mode="after")
+    def validate_stock_or_ticker(cls, model):
+        if not model.stock and not model.ticker:
+            raise ValueError("Either 'stock' or 'ticker' must be provided.")
+        return model
+
+    @field_validator("ticker")
+    def validate_ticker(cls, ticker):
+        if not ticker:
+            return ticker
+        if ticker.isdigit() and len(ticker) == 6:
+            return ticker
+        elif ticker.startswith("KR") and len(ticker) == 12 and ticker[2:].isdigit():
+            return ticker[3:9]
+        else:
+            raise ValueError("The variable 'ticker' must be in '000000' format.")
+    
     @field_validator("date")
-    @classmethod
     def validate_date(cls, date):
         if date is None:
             return date
         try:
             datetime.strptime(date, "%Y%m%d")
         except ValueError:
-            raise ValueError("'date' must be in YYYYMMDD format")
+            raise ValueError("The variable 'date' must be in 'YYYYMMDD' format.")
         return date
-    
+
 
 class StockInfoOutputModel(BaseModel):
     isu_cd: Optional[str] = Field(

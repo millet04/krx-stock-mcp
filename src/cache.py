@@ -6,7 +6,7 @@ from src.utils import LOGGER
 
 class BaseCache(ABC):
     """LRU Cache"""
-    cache_name = "Base Cache"
+    cache_name = "Base-Cache"
     markets = ["stk", "ksq", "knx"]
     
     def __init__(self, max_size: int = 10):
@@ -18,7 +18,6 @@ class BaseCache(ABC):
         self._lru_cache: OrderedDict[Tuple[str, str], dict] = OrderedDict()
         self._max_size: int = max_size
         
-
     @property
     def latest_date(self) -> Optional[str]:
         return self._latest_date
@@ -35,11 +34,10 @@ class BaseCache(ABC):
     def latest(self, data: Dict[Tuple[str, str], dict]):
         self._latest = data
 
-    
     def get(self,
             date: str,
             market: str,
-            stock: str
+            ticker: str
         ) -> dict:
         """Get data from LRU cache."""
         markets = [market] if market else self.markets
@@ -48,16 +46,15 @@ class BaseCache(ABC):
             for mkt in markets:
                 if (date, mkt) in self.latest:
                     LOGGER.info(f"[{self.cache_name}] Hit the latest cache")
-                    return self.latest.get((date, mkt), {}).get(stock, {})
+                    return self.latest.get((date, mkt), {}).get(ticker, {})
 
         for mkt in markets:
             if (date, mkt) in self._lru_cache:
-                if stock in set(self._lru_cache[(date, market)].keys()):
+                if ticker in set(self._lru_cache[(date, market)].keys()):
                     LOGGER.info(f"[{self.cache_name}] Hit the LRU cache")
                     self._lru_cache.move_to_end((date, mkt))
-                    return self._lru_cache.get((date, mkt), {}).get(stock, {})
+                    return self._lru_cache.get((date, mkt), {}).get(ticker, {})
         return {}
-
 
     def push(self,
              date: str,
@@ -82,7 +79,6 @@ class BaseCache(ABC):
             self._lru_cache.popitem(last=False)
             LOGGER.info(f"[{self.cache_name}] Removed the last item from the cache")
 
-
     def update_latest(self,
                       date: str,
                       entries: Dict[Tuple[str, str], dict]
@@ -98,7 +94,6 @@ class BaseCache(ABC):
         self.latest = entries
         LOGGER.info(f"[{self.cache_name}] Updated the latest date and data")
     
-
     def _move_to_lru(self,
                      entries: Dict[Tuple[str, str], dict],
         ) -> None:
@@ -115,7 +110,7 @@ class BaseCache(ABC):
         
 class KrxStockInfoCache(BaseCache):
     """Cache storing basic stock information"""
-    cache_name = "Stock Info Cache"
+    cache_name = "Stock-Info-Cache"
     
     def __init__(self, max_size):
         super().__init__(max_size)
@@ -123,7 +118,7 @@ class KrxStockInfoCache(BaseCache):
         
 class KrxStockPriceCache(BaseCache):
     """Cache storing stock price"""
-    cache_name = "Stock Price Cache"
+    cache_name = "Stock-Price-Cache"
 
     def __init__(self, max_size):
         super().__init__(max_size)

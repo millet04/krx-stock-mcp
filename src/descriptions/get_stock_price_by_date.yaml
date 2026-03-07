@@ -17,10 +17,13 @@ description: |
 
   [Args]
     request (ToolRequestModel): 종목 주가 정보 조회를 위한 파라미터 모델
-    - request.stock (str): 기본 정보를 조회할 주식 종목명
+    - request.stock (Optional[str]): 기본 정보를 조회할 주식 종목명. 질의에 드러나지 않을 경우 None을 전달
+    - request.ticker (Optional[str]): 기본 정보를 조회할 주식의 코드. 질의에 드러나지 않을 경우 None을 전달
     - request.market (Literal['코스피','코스닥','코넥스','알수없음']): 조회할 주식이 속한 주식 시장. 판단이 어려울 경우 '알수없음'을 전달.
     - request.date (Optional[str]): 조회 기준 날짜 문자열 (예: '20250627'). 판단이 어려울 경우 None을 전달.
     
+    ※ 적어도 'stock'과 'ticker' 모두 None 일 경우 파라미터 모델을 에러를 발생시킵니다
+ 
   [Returns]
     (str): 조회된 종목들의 기본 정보를 종합해 MarkDown 표로 반환합니다.
            유효한 정보가 없을 경우, 이 사실을 알리는 문자열을 반환합니다.
