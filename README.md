@@ -13,7 +13,7 @@ KRX(한국거래소) API를 활용해 국내 주식 시장(KOSPI, KOSDAQ, KONEX)
 &nbsp;
 
 <div align="center">
-<img src="images/krx-stock-mcp-image.png" width="380" height="300" />
+<img src="images/krx-stock-mcp-image.png" width="400" height="320" />
 </div>
 
 &nbsp;
