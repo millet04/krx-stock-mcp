@@ -149,9 +149,9 @@ class KrxStockInfoResolver(BaseResolver):
 
     def __init__(self):
         super().__init__()
-        stk_data = self._load_file('stock_info_kospi.json')
-        ksq_data = self._load_file('stock_info_kosdaq.json')
-        knx_data = self._load_file('stock_info_konex.json')
+        stk_data = self._load_file('./data/stock_info_kospi.json')
+        ksq_data = self._load_file('./data/stock_info_kosdaq.json')
+        knx_data = self._load_file('./data/stock_info_konex.json')
 
         self.stk_stock_to_ticker = self._set_stock_to_ticker(stk_data)
         self.ksq_stock_to_ticker = self._set_stock_to_ticker(ksq_data)
@@ -222,9 +222,9 @@ class KrxStockPriceResolver(BaseResolver):
 
     def __init__(self):
         super().__init__()
-        stk_data = self._load_file('stock_price_kospi.json')
-        ksq_data = self._load_file('stock_price_kosdaq.json')
-        knx_data = self._load_file('stock_price_konex.json')
+        stk_data = self._load_file('./data/stock_price_kospi.json')
+        ksq_data = self._load_file('./data/stock_price_kosdaq.json')
+        knx_data = self._load_file('./data/stock_price_konex.json')
 
         self.stk_stock_to_ticker = self._set_stock_to_ticker(stk_data)
         self.ksq_stock_to_ticker = self._set_stock_to_ticker(ksq_data)
