@@ -73,6 +73,7 @@ class KrxStockHealthChecker:
             try:
                 entry_model = ToolRequestModel(
                     stock = entry['stock'],
+                    ticker = entry['ticker'],
                     makret = entry['market'],
                     date = entry['date']
                 )

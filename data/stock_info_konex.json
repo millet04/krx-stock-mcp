@@ -1,0 +1,2564 @@
+{
+  "대주이엔티": {
+    "standard_code": "KR7114920002",
+    "short_code": "114920",
+    "name_kor": "대주이엔티 주식회사",
+    "name_eng": "Daejoo Energy INnovation Technology Co.,Ltd",
+    "name_abbr": "대주이엔티"
+  },
+  "비나텍": {
+    "standard_code": "KR7126340009",
+    "short_code": "126340",
+    "name_kor": "비나텍 주식회사",
+    "name_eng": "VINA TECH CO.,LTD",
+    "name_abbr": "비나텍"
+  },
+  "스탠다드펌": {
+    "standard_code": "KR7179280003",
+    "short_code": "179280",
+    "name_kor": "스탠다드펌 주식회사",
+    "name_eng": "Standard Firm Co., Ltd.",
+    "name_abbr": "스탠다드펌"
+  },
+  "랩지노믹스": {
+    "standard_code": "KR7084650001",
+    "short_code": "084650",
+    "name_kor": "주식회사 랩지노믹스",
+    "name_eng": "LabGenomics Co., Ltd.",
+    "name_abbr": "랩지노믹스"
+  },
+  "메디아나": {
+    "standard_code": "KR7041920000",
+    "short_code": "041920",
+    "name_kor": "주식회사 메디아나",
+    "name_eng": "MEDIANA Co.,Ltd",
+    "name_abbr": "메디아나"
+  },
+  "베셀": {
+    "standard_code": "KR7177350006",
+    "short_code": "177350",
+    "name_kor": "주식회사 베셀",
+    "name_eng": "Vessel Co., Ltd",
+    "name_abbr": "베셀"
+  },
+  "비앤에스미디어": {
+    "standard_code": "KR7156170003",
+    "short_code": "156170",
+    "name_kor": "주식회사 비앤에스미디어",
+    "name_eng": "B&S MEDIA CO., LTD",
+    "name_abbr": "비앤에스미디어"
+  },
+  "아이티센시스템즈": {
+    "standard_code": "KR7124500000",
+    "short_code": "124500",
+    "name_kor": "주식회사 아이티센시스템즈",
+    "name_eng": "ITCEN SYSTEMS CO.,LTD",
+    "name_abbr": "아이티센시스템즈"
+  },
+  "아진엑스텍": {
+    "standard_code": "KR7059120006",
+    "short_code": "059120",
+    "name_kor": "주식회사 아진엑스텍",
+    "name_eng": "AJINEXTEK Co.,Ltd.",
+    "name_abbr": "아진엑스텍"
+  },
+  "에스에이티이엔지": {
+    "standard_code": "KR7158300004",
+    "short_code": "158300",
+    "name_kor": "주식회사 에스에이티",
+    "name_eng": "Solution Advanced Technology Co.,Ltd.",
+    "name_abbr": "에스에이티이엔지"
+  },
+  "에스엔피제네틱스": {
+    "standard_code": "KR7086460003",
+    "short_code": "086460",
+    "name_kor": "주식회사 에스엔피제네틱스",
+    "name_eng": "SNP Genetics",
+    "name_abbr": "에스엔피제네틱스"
+  },
+  "에프앤가이드": {
+    "standard_code": "KR7064850001",
+    "short_code": "064850",
+    "name_kor": "주식회사 에프앤가이드",
+    "name_eng": "FnGuide Inc.",
+    "name_abbr": "에프앤가이드"
+  },
+  "엘앤케이바이오": {
+    "standard_code": "KR7156100000",
+    "short_code": "156100",
+    "name_kor": "주식회사 엘앤케이바이오메드",
+    "name_eng": "L&K BIOMED CO., Ltd.",
+    "name_abbr": "엘앤케이바이오"
+  },
+  "옐로페이": {
+    "standard_code": "KR7179720008",
+    "short_code": "179720",
+    "name_kor": "주식회사 옐로페이",
+    "name_eng": "Yelopay Corporation",
+    "name_abbr": "옐로페이"
+  },
+  "웹솔루스": {
+    "standard_code": "KR7160350005",
+    "short_code": "160350",
+    "name_kor": "주식회사 웹솔루스",
+    "name_eng": "WEBSOLUS CO.,LTD",
+    "name_abbr": "웹솔루스"
+  },
+  "이엔드디": {
+    "standard_code": "KR7101360006",
+    "short_code": "101360",
+    "name_kor": "주식회사 이엔드디",
+    "name_eng": "E&D Co., Ltd",
+    "name_abbr": "이엔드디"
+  },
+  "테라텍": {
+    "standard_code": "KR7151750007",
+    "short_code": "151750",
+    "name_kor": "주식회사 테라텍",
+    "name_eng": "TERATECH CO., LTD.",
+    "name_abbr": "테라텍"
+  },
+  "퓨얼셀": {
+    "standard_code": "KR7139170005",
+    "short_code": "139170",
+    "name_kor": "주식회사 퓨얼셀파워",
+    "name_eng": "Fuelcellpower Co.,Ltd.",
+    "name_abbr": "퓨얼셀"
+  },
+  "피엠디아카데미": {
+    "standard_code": "KR7144740008",
+    "short_code": "144740",
+    "name_kor": "주식회사 피엠디아카데미",
+    "name_eng": "PMD ACADEMY CORP.",
+    "name_abbr": "피엠디아카데미"
+  },
+  "하이로닉": {
+    "standard_code": "KR7149980005",
+    "short_code": "149980",
+    "name_kor": "주식회사 하이로닉",
+    "name_eng": "Hironic Co.,Ltd",
+    "name_abbr": "하이로닉"
+  },
+  "태양기계": {
+    "standard_code": "KR7116100009",
+    "short_code": "116100",
+    "name_kor": "태양기계 주식회사",
+    "name_eng": "Sun Machinery Co.,LTD",
+    "name_abbr": "태양기계"
+  },
+  "힘스인터내셔널": {
+    "standard_code": "KR7181980004",
+    "short_code": "181980",
+    "name_kor": "주식회사 힘스인터내셔널",
+    "name_eng": "HIMS International Corporation",
+    "name_abbr": "힘스인터내셔널"
+  },
+  "세화피앤씨": {
+    "standard_code": "KR7085980001",
+    "short_code": "085980",
+    "name_kor": "주식회사 세화피앤씨",
+    "name_eng": "SEWHA P&C INC.",
+    "name_abbr": "세화피앤씨"
+  },
+  "엔지켐": {
+    "standard_code": "KR7183490002",
+    "short_code": "183490",
+    "name_kor": "주식회사 엔지켐생명과학",
+    "name_eng": "ENZYCHEM LIFESCIENCES CORPORATION",
+    "name_abbr": "엔지켐"
+  },
+  "엘피케이": {
+    "standard_code": "KR7183350008",
+    "short_code": "183350",
+    "name_kor": "주식회사 엘피케이",
+    "name_eng": "LPK Co.,Ltd",
+    "name_abbr": "엘피케이"
+  },
+  "테라셈": {
+    "standard_code": "KR7182690008",
+    "short_code": "182690",
+    "name_kor": "테라셈 주식회사",
+    "name_eng": "TerraSem Co., Ltd.",
+    "name_abbr": "테라셈"
+  },
+  "수프로": {
+    "standard_code": "KR7185190006",
+    "short_code": "185190",
+    "name_kor": "주식회사 수프로",
+    "name_eng": "Suppro Co.,Ltd",
+    "name_abbr": "수프로"
+  },
+  "칩스앤미디어": {
+    "standard_code": "KR7094360005",
+    "short_code": "094360",
+    "name_kor": "주식회사 칩스앤미디어",
+    "name_eng": "Chips&Media, Inc.",
+    "name_abbr": "칩스앤미디어"
+  },
+  "닉스테크": {
+    "standard_code": "KR7063840003",
+    "short_code": "063840",
+    "name_kor": "닉스테크 주식회사",
+    "name_eng": "NICSTECH CO., LTD",
+    "name_abbr": "닉스테크"
+  },
+  "데카시스템": {
+    "standard_code": "KR7183410000",
+    "short_code": "183410",
+    "name_kor": "주식회사 데카시스템",
+    "name_eng": "Deca System Inc.",
+    "name_abbr": "데카시스템"
+  },
+  "이푸른": {
+    "standard_code": "KR7185280005",
+    "short_code": "185280",
+    "name_kor": "주식회사 이푸른",
+    "name_eng": "Egreen Co., LTD.",
+    "name_abbr": "이푸른"
+  },
+  "아이진": {
+    "standard_code": "KR7185490000",
+    "short_code": "185490",
+    "name_kor": "아이진 주식회사",
+    "name_eng": "EyeGene, Inc.",
+    "name_abbr": "아이진"
+  },
+  "대동고려삼": {
+    "standard_code": "KR7178600003",
+    "short_code": "178600",
+    "name_kor": "대동고려삼 주식회사",
+    "name_eng": "DAEDONG KOREA GINSENG CO.,LTD.",
+    "name_abbr": "대동고려삼"
+  },
+  "그린플러스": {
+    "standard_code": "KR7186230009",
+    "short_code": "186230",
+    "name_kor": "주식회사 그린플러스",
+    "name_eng": "GREEN PLUS Co., Ltd.",
+    "name_abbr": "그린플러스"
+  },
+  "금오하이텍": {
+    "standard_code": "KR7165270000",
+    "short_code": "165270",
+    "name_kor": "주식회사 금오하이텍",
+    "name_eng": "KUMO HITEC. CO., LTD",
+    "name_abbr": "금오하이텍"
+  },
+  "매직마이크로": {
+    "standard_code": "KR7127160000",
+    "short_code": "127160",
+    "name_kor": "주식회사 매직마이크로",
+    "name_eng": "MAGICMICRO CO.,LTD",
+    "name_abbr": "매직마이크로"
+  },
+  "판타지오": {
+    "standard_code": "KR7187770003",
+    "short_code": "187770",
+    "name_kor": "주식회사 판타지오",
+    "name_eng": "Fantagio Co., LTD",
+    "name_abbr": "판타지오"
+  },
+  "한중": {
+    "standard_code": "KR7107640005",
+    "short_code": "107640",
+    "name_kor": "주식회사 한중",
+    "name_eng": "Han Jung.co.,LTD.",
+    "name_abbr": "한중"
+  },
+  "청광종건": {
+    "standard_code": "KR7140290008",
+    "short_code": "140290",
+    "name_kor": "청광종합건설 주식회사",
+    "name_eng": "CHUNGKWANG CONSTRUCTION CO., LtD",
+    "name_abbr": "청광종건"
+  },
+  "위월드": {
+    "standard_code": "KR7140660002",
+    "short_code": "140660",
+    "name_kor": "위월드 주식회사",
+    "name_eng": "WIWORLD Co.,Ltd",
+    "name_abbr": "위월드"
+  },
+  "씨이랩": {
+    "standard_code": "KR7189330004",
+    "short_code": "189330",
+    "name_kor": "주식회사 씨이랩",
+    "name_eng": "XIIlab Co.,Ltd",
+    "name_abbr": "씨이랩"
+  },
+  "씨티네트웍스": {
+    "standard_code": "KR7189540008",
+    "short_code": "189540",
+    "name_kor": "주식회사 씨티네트웍스",
+    "name_eng": "ctnetworks Co., Ltd.",
+    "name_abbr": "씨티네트웍스"
+  },
+  "알엔투테크놀로지": {
+    "standard_code": "KR7148250004",
+    "short_code": "148250",
+    "name_kor": "주식회사 알엔투 테크놀로지",
+    "name_eng": "RN2 Technologies Co., Ltd.",
+    "name_abbr": "알엔투테크놀로지"
+  },
+  "코셋": {
+    "standard_code": "KR7189350002",
+    "short_code": "189350",
+    "name_kor": "주식회사 코셋",
+    "name_eng": "Coset Inc.",
+    "name_abbr": "코셋"
+  },
+  "하나일렉콤": {
+    "standard_code": "KR7103650008",
+    "short_code": "103650",
+    "name_kor": "주식회사 하나일렉콤",
+    "name_eng": "HaNa Elecom.,LTD",
+    "name_abbr": "하나일렉콤"
+  },
+  "유비온": {
+    "standard_code": "KR7084440007",
+    "short_code": "084440",
+    "name_kor": "주식회사 유비온",
+    "name_eng": "UBION CO.LTD.",
+    "name_abbr": "유비온"
+  },
+  "비지스틸": {
+    "standard_code": "KR7179440003",
+    "short_code": "179440",
+    "name_kor": "비지스틸 주식회사",
+    "name_eng": "BGSTEEL CO.,LTD.",
+    "name_abbr": "비지스틸"
+  },
+  "나이코": {
+    "standard_code": "KR7192240000",
+    "short_code": "192240",
+    "name_kor": "주식회사 나이코",
+    "name_eng": "NYCO CO.,LTD.",
+    "name_abbr": "나이코"
+  },
+  "프렉코": {
+    "standard_code": "KR7082220005",
+    "short_code": "082220",
+    "name_kor": "주식회사 프렉코",
+    "name_eng": "PREXCO CO.,LTD.",
+    "name_abbr": "프렉코"
+  },
+  "씨아이에스": {
+    "standard_code": "KR7144630001",
+    "short_code": "144630",
+    "name_kor": "씨아이에스",
+    "name_eng": "Creative & Innovative System Corporation",
+    "name_abbr": "씨아이에스"
+  },
+  "SY이노베이션": {
+    "standard_code": "KR7194860003",
+    "short_code": "194860",
+    "name_kor": "에스와이이노베이션",
+    "name_eng": "SY Innovation Co., Ltd.",
+    "name_abbr": "SY이노베이션"
+  },
+  "한중엔시에스": {
+    "standard_code": "KR7107640005",
+    "short_code": "107640",
+    "name_kor": "한중엔시에스",
+    "name_eng": "HanJung Natural Connectivity System.co.,Ltd",
+    "name_abbr": "한중엔시에스"
+  },
+  "디지캡": {
+    "standard_code": "KR7197140007",
+    "short_code": "197140",
+    "name_kor": "디지캡",
+    "name_eng": "DigiCAP Co., Ltd.",
+    "name_abbr": "디지캡"
+  },
+  "디피앤케이": {
+    "standard_code": "KR7189700008",
+    "short_code": "189700",
+    "name_kor": "디피앤케이",
+    "name_eng": "Design Power & Korea Co., Ltd.",
+    "name_abbr": "디피앤케이"
+  },
+  "데이터스트림즈": {
+    "standard_code": "KR7199150004",
+    "short_code": "199150",
+    "name_kor": "데이터스트림즈",
+    "name_eng": "Data Streams Corp.",
+    "name_abbr": "데이터스트림즈"
+  },
+  "큐엠씨": {
+    "standard_code": "KR7136660008",
+    "short_code": "136660",
+    "name_kor": "큐엠씨",
+    "name_eng": "QMC",
+    "name_abbr": "큐엠씨"
+  },
+  "툴젠": {
+    "standard_code": "KR7199800004",
+    "short_code": "199800",
+    "name_kor": "툴젠",
+    "name_eng": "ToolGen Incorporated",
+    "name_abbr": "툴젠"
+  },
+  "아시아종묘": {
+    "standard_code": "KR7154030001",
+    "short_code": "154030",
+    "name_kor": "농업회사법인아시아종묘",
+    "name_eng": "ASIA SEED Co.,Ltd.",
+    "name_abbr": "아시아종묘"
+  },
+  "엔지켐생명과학": {
+    "standard_code": "KR7183490002",
+    "short_code": "183490",
+    "name_kor": "주식회사 엔지켐생명과학",
+    "name_eng": "ENZYCHEM LIFESCIENCES CORPORATION",
+    "name_abbr": "엔지켐생명과학"
+  },
+  "아이티센": {
+    "standard_code": "KR7124500000",
+    "short_code": "124500",
+    "name_kor": "아이티센",
+    "name_eng": "ITCEN CO.,LTD.",
+    "name_abbr": "아이티센"
+  },
+  "에이비온": {
+    "standard_code": "KR7203400007",
+    "short_code": "203400",
+    "name_kor": "에이비온",
+    "name_eng": "ABION Inc.",
+    "name_abbr": "에이비온"
+  },
+  "유니온커뮤니티": {
+    "standard_code": "KR7203450002",
+    "short_code": "203450",
+    "name_kor": "유니온커뮤니티",
+    "name_eng": "Union community Co., Ltd.",
+    "name_abbr": "유니온커뮤니티"
+  },
+  "판도라티비": {
+    "standard_code": "KR7202960001",
+    "short_code": "202960",
+    "name_kor": "판도라티비",
+    "name_eng": "PANDORA TV CO.,LTD.",
+    "name_abbr": "판도라티비"
+  },
+  "한주금속": {
+    "standard_code": "KR7198940009",
+    "short_code": "198940",
+    "name_kor": "한주금속",
+    "name_eng": "HANJOO METAL CO., LTD.",
+    "name_abbr": "한주금속"
+  },
+  "다린": {
+    "standard_code": "KR7204690002",
+    "short_code": "204690",
+    "name_kor": "다린",
+    "name_eng": "Darin Co., Ltd.",
+    "name_abbr": "다린"
+  },
+  "리드": {
+    "standard_code": "KR7197210008",
+    "short_code": "197210",
+    "name_kor": "리드",
+    "name_eng": "LEED",
+    "name_abbr": "리드"
+  },
+  "유니포인트": {
+    "standard_code": "KR7121060008",
+    "short_code": "121060",
+    "name_kor": "유니포인트",
+    "name_eng": "UNIPOINT Corp.",
+    "name_abbr": "유니포인트"
+  },
+  "옵토팩": {
+    "standard_code": "KR7123010001",
+    "short_code": "123010",
+    "name_kor": "옵토팩",
+    "name_eng": "OptoPAC Incorporation",
+    "name_abbr": "옵토팩"
+  },
+  "아이케이세미콘": {
+    "standard_code": "KR7149010001",
+    "short_code": "149010",
+    "name_kor": "아이케이세미콘",
+    "name_eng": "IK Semicon Co., Ltd",
+    "name_abbr": "아이케이세미콘"
+  },
+  "바이오리더스": {
+    "standard_code": "KR7142760008",
+    "short_code": "142760",
+    "name_kor": "바이오리더스",
+    "name_eng": "Bioleaders Corporation",
+    "name_abbr": "바이오리더스"
+  },
+  "엘스트로": {
+    "standard_code": "KR7150440006",
+    "short_code": "150440",
+    "name_kor": "엘스트로",
+    "name_eng": "Lstro Co., Ltd.",
+    "name_abbr": "엘스트로"
+  },
+  "세신버팔로": {
+    "standard_code": "KR7110660008",
+    "short_code": "110660",
+    "name_kor": "세신버팔로",
+    "name_eng": "SESHIN BUFFALO CO.,Ltd.",
+    "name_abbr": "세신버팔로"
+  },
+  "세종머티리얼즈": {
+    "standard_code": "KR7135270007",
+    "short_code": "135270",
+    "name_kor": "세종머티리얼즈",
+    "name_eng": "Sejong Materials Co., Ltd.",
+    "name_abbr": "세종머티리얼즈"
+  },
+  "소프트캠프": {
+    "standard_code": "KR7210610002",
+    "short_code": "210610",
+    "name_kor": "소프트캠프",
+    "name_eng": "SOFTCAMP",
+    "name_abbr": "소프트캠프"
+  },
+  "에듀케이션파트너": {
+    "standard_code": "KR7208890004",
+    "short_code": "208890",
+    "name_kor": "에듀케이션파트너",
+    "name_eng": "educationpartner",
+    "name_abbr": "에듀케이션파트너"
+  },
+  "엠지메드": {
+    "standard_code": "KR7180400004",
+    "short_code": "180400",
+    "name_kor": "엠지메드",
+    "name_eng": "MG MED, Inc.",
+    "name_abbr": "엠지메드"
+  },
+  "유디피": {
+    "standard_code": "KR7091270009",
+    "short_code": "091270",
+    "name_kor": "유디피",
+    "name_eng": "UDP Technology",
+    "name_abbr": "유디피"
+  },
+  "이김프로덕션": {
+    "standard_code": "KR7210120002",
+    "short_code": "210120",
+    "name_kor": "이김프로덕션",
+    "name_eng": "Victory Production & Company",
+    "name_abbr": "이김프로덕션"
+  },
+  "듀켐바이오": {
+    "standard_code": "KR7176750008",
+    "short_code": "176750",
+    "name_kor": "듀켐바이오",
+    "name_eng": "DuChemBio Co.,LTD.",
+    "name_abbr": "듀켐바이오"
+  },
+  "래몽래인": {
+    "standard_code": "KR7200350007",
+    "short_code": "200350",
+    "name_kor": "래몽래인",
+    "name_eng": "RaemongRaein.Co.,Ltd",
+    "name_abbr": "래몽래인"
+  },
+  "엑시콘": {
+    "standard_code": "KR7092870005",
+    "short_code": "092870",
+    "name_kor": "엑시콘",
+    "name_eng": "Exicon",
+    "name_abbr": "엑시콘"
+  },
+  "예스티": {
+    "standard_code": "KR7122640006",
+    "short_code": "122640",
+    "name_kor": "예스티",
+    "name_eng": "YEST Co.,Ltd.",
+    "name_abbr": "예스티"
+  },
+  "비엔디생활건강": {
+    "standard_code": "KR7215050006",
+    "short_code": "215050",
+    "name_kor": "비엔디생활건강",
+    "name_eng": "B&D Life Health CO.,LTD.",
+    "name_abbr": "비엔디생활건강"
+  },
+  "현성바이탈": {
+    "standard_code": "KR7204990006",
+    "short_code": "204990",
+    "name_kor": "현성바이탈",
+    "name_eng": "HS Vital",
+    "name_abbr": "현성바이탈"
+  },
+  "피노텍": {
+    "standard_code": "KR7150440006",
+    "short_code": "150440",
+    "name_kor": "피노텍",
+    "name_eng": "Finotek",
+    "name_abbr": "피노텍"
+  },
+  "피엠에스": {
+    "standard_code": "KR7179440003",
+    "short_code": "179440",
+    "name_kor": "피엠에스",
+    "name_eng": "PMS",
+    "name_abbr": "피엠에스"
+  },
+  "썬테크": {
+    "standard_code": "KR7217320001",
+    "short_code": "217320",
+    "name_kor": "썬테크",
+    "name_eng": "SUNTECH",
+    "name_abbr": "썬테크"
+  },
+  "원텍": {
+    "standard_code": "KR7216280008",
+    "short_code": "216280",
+    "name_kor": "원텍",
+    "name_eng": "WONTECH",
+    "name_abbr": "원텍"
+  },
+  "이엘피": {
+    "standard_code": "KR7063760003",
+    "short_code": "063760",
+    "name_kor": "이엘피",
+    "name_eng": "ELP Corp.",
+    "name_abbr": "이엘피"
+  },
+  "관악산업": {
+    "standard_code": "KR7076340009",
+    "short_code": "076340",
+    "name_kor": "관악산업",
+    "name_eng": "GWANAK CONSTRUCTION AND EQUIPMENT SERVICE",
+    "name_abbr": "관악산업"
+  },
+  "틸론": {
+    "standard_code": "KR7217880004",
+    "short_code": "217880",
+    "name_kor": "틸론",
+    "name_eng": "TILON",
+    "name_abbr": "틸론"
+  },
+  "지티지웰니스": {
+    "standard_code": "KR7219750007",
+    "short_code": "219750",
+    "name_kor": "지티지웰니스",
+    "name_eng": "GTG Wellness",
+    "name_abbr": "지티지웰니스"
+  },
+  "나노바이오시스": {
+    "standard_code": "KR7214610008",
+    "short_code": "214610",
+    "name_kor": "나노바이오시스",
+    "name_eng": "NANOBIOSYS",
+    "name_abbr": "나노바이오시스"
+  },
+  "드림티엔터테인먼트": {
+    "standard_code": "KR7220110001",
+    "short_code": "220110",
+    "name_kor": "드림티엔터테인먼트",
+    "name_eng": "Dream T Entertainment",
+    "name_abbr": "드림티엔터테인먼트"
+  },
+  "바이오코아": {
+    "standard_code": "KR7216400002",
+    "short_code": "216400",
+    "name_kor": "바이오코아",
+    "name_eng": "BIOCORE CO",
+    "name_abbr": "바이오코아"
+  },
+  "씨앗": {
+    "standard_code": "KR7103660007",
+    "short_code": "103660",
+    "name_kor": "씨앗",
+    "name_eng": "CIAAT",
+    "name_abbr": "씨앗"
+  },
+  "유투바이오": {
+    "standard_code": "KR7221800006",
+    "short_code": "221800",
+    "name_kor": "유투바이오",
+    "name_eng": "U2BIO",
+    "name_abbr": "유투바이오"
+  },
+  "핸디소프트": {
+    "standard_code": "KR7220180004",
+    "short_code": "220180",
+    "name_kor": "핸디소프트",
+    "name_eng": "HANDYSOFT",
+    "name_abbr": "핸디소프트"
+  },
+  "구름컴퍼니": {
+    "standard_code": "KR7223220005",
+    "short_code": "223220",
+    "name_kor": "구름컴퍼니",
+    "name_eng": "GURUM COMPANY",
+    "name_abbr": "구름컴퍼니"
+  },
+  "네추럴FNP": {
+    "standard_code": "KR7086220001",
+    "short_code": "086220",
+    "name_kor": "네추럴에프앤피",
+    "name_eng": "Natural F&P",
+    "name_abbr": "네추럴FNP"
+  },
+  "솔트웍스": {
+    "standard_code": "KR7222520009",
+    "short_code": "222520",
+    "name_kor": "솔트웍스",
+    "name_eng": "Soltworks",
+    "name_abbr": "솔트웍스"
+  },
+  "엔에스컴퍼니": {
+    "standard_code": "KR7224760009",
+    "short_code": "224760",
+    "name_kor": "엔에스컴퍼니",
+    "name_eng": "NSCOMPANY",
+    "name_abbr": "엔에스컴퍼니"
+  },
+  "정다운": {
+    "standard_code": "KR7224090001",
+    "short_code": "224090",
+    "name_kor": "정다운",
+    "name_eng": "JUNGDAWN",
+    "name_abbr": "정다운"
+  },
+  "플럼라인생명과학": {
+    "standard_code": "KR7222670002",
+    "short_code": "222670",
+    "name_kor": "플럼라인생명과학",
+    "name_eng": "Plumbline Life Sciences",
+    "name_abbr": "플럼라인생명과학"
+  },
+  "제놀루션": {
+    "standard_code": "KR7225220003",
+    "short_code": "225220",
+    "name_kor": "제놀루션",
+    "name_eng": "GENOLUTION",
+    "name_abbr": "제놀루션"
+  },
+  "퓨쳐켐": {
+    "standard_code": "KR7220100002",
+    "short_code": "220100",
+    "name_kor": "퓨쳐켐",
+    "name_eng": "Futurechem",
+    "name_abbr": "퓨쳐켐"
+  },
+  "카이노스메드": {
+    "standard_code": "KR7220250005",
+    "short_code": "220250",
+    "name_kor": "카이노스메드",
+    "name_eng": "KAINOSMED",
+    "name_abbr": "카이노스메드"
+  },
+  "디와이엘엔제이": {
+    "standard_code": "KR7207230004",
+    "short_code": "207230",
+    "name_kor": "디와이엘엔제이",
+    "name_eng": "DYLNJ",
+    "name_abbr": "디와이엘엔제이"
+  },
+  "메디쎄이": {
+    "standard_code": "KR7200580009",
+    "short_code": "200580",
+    "name_kor": "메디쎄이",
+    "name_eng": "MEDYSSEY",
+    "name_abbr": "메디쎄이"
+  },
+  "엄지하우스": {
+    "standard_code": "KR7224810002",
+    "short_code": "224810",
+    "name_kor": "엄지하우스",
+    "name_eng": "EOMJIHOUSE",
+    "name_abbr": "엄지하우스"
+  },
+  "한국티씨엠": {
+    "standard_code": "KR7228180006",
+    "short_code": "228180",
+    "name_kor": "한국티씨엠",
+    "name_eng": "TCM KOREA",
+    "name_abbr": "한국티씨엠"
+  },
+  "노브메타파마": {
+    "standard_code": "KR7229500004",
+    "short_code": "229500",
+    "name_kor": "노브메타파마",
+    "name_eng": "NOVMETAPHARMA",
+    "name_abbr": "노브메타파마"
+  },
+  "럭스피아": {
+    "standard_code": "KR7092590009",
+    "short_code": "092590",
+    "name_kor": "럭스피아",
+    "name_eng": "Luxpia",
+    "name_abbr": "럭스피아"
+  },
+  "바이오씨앤디": {
+    "standard_code": "KR7217950005",
+    "short_code": "217950",
+    "name_kor": "바이오씨앤디",
+    "name_eng": "BIOCND",
+    "name_abbr": "바이오씨앤디"
+  },
+  "젠큐릭스": {
+    "standard_code": "KR7229000005",
+    "short_code": "229000",
+    "name_kor": "젠큐릭스",
+    "name_eng": "Gencurix",
+    "name_abbr": "젠큐릭스"
+  },
+  "인카금융서비스": {
+    "standard_code": "KR7211050000",
+    "short_code": "211050",
+    "name_kor": "인카금융서비스",
+    "name_eng": "INCAR FINANCIAL SERVICE",
+    "name_abbr": "인카금융서비스"
+  },
+  "자비스": {
+    "standard_code": "KR7230400004",
+    "short_code": "230400",
+    "name_kor": "자비스",
+    "name_eng": "XAVIS",
+    "name_abbr": "자비스"
+  },
+  "지성이씨에스": {
+    "standard_code": "KR7138290002",
+    "short_code": "138290",
+    "name_kor": "지성이씨에스",
+    "name_eng": "ZISUNG ECS",
+    "name_abbr": "지성이씨에스"
+  },
+  "나온테크": {
+    "standard_code": "KR7232680009",
+    "short_code": "232680",
+    "name_kor": "나온테크",
+    "name_eng": "NAONTECH",
+    "name_abbr": "나온테크"
+  },
+  "미애부": {
+    "standard_code": "KR7225850007",
+    "short_code": "225850",
+    "name_kor": "미애부",
+    "name_eng": "Miev",
+    "name_abbr": "미애부"
+  },
+  "에이치엔에스하이텍": {
+    "standard_code": "KR7044990000",
+    "short_code": "044990",
+    "name_kor": "에이치엔에스하이텍",
+    "name_eng": "H&S",
+    "name_abbr": "에이치엔에스하이텍"
+  },
+  "한국비엔씨": {
+    "standard_code": "KR7226610004",
+    "short_code": "226610",
+    "name_kor": "한국비엔씨",
+    "name_eng": "BNC Korea",
+    "name_abbr": "한국비엔씨"
+  },
+  "글로벌광통신": {
+    "standard_code": "KR7135160000",
+    "short_code": "135160",
+    "name_kor": "글로벌광통신",
+    "name_eng": "GOC",
+    "name_abbr": "글로벌광통신"
+  },
+  "미래자원엠엘": {
+    "standard_code": "KR7233190008",
+    "short_code": "233190",
+    "name_kor": "미래자원엠엘",
+    "name_eng": "MILAE RESOURCES ML",
+    "name_abbr": "미래자원엠엘"
+  },
+  "볼빅": {
+    "standard_code": "KR7206950008",
+    "short_code": "206950",
+    "name_kor": "볼빅",
+    "name_eng": "Volvik",
+    "name_abbr": "볼빅"
+  },
+  "세기리텍": {
+    "standard_code": "KR7199870007",
+    "short_code": "199870",
+    "name_kor": "세기리텍",
+    "name_eng": "SGRETECH",
+    "name_abbr": "세기리텍"
+  },
+  "세원": {
+    "standard_code": "KR7234100006",
+    "short_code": "234100",
+    "name_kor": "세원",
+    "name_eng": "Sewon",
+    "name_abbr": "세원"
+  },
+  "아스팩오일": {
+    "standard_code": "KR7232360008",
+    "short_code": "232360",
+    "name_kor": "아스팩오일",
+    "name_eng": "ASPACOIL",
+    "name_abbr": "아스팩오일"
+  },
+  "에이원알폼": {
+    "standard_code": "KR7234070001",
+    "short_code": "234070",
+    "name_kor": "에이원알폼",
+    "name_eng": "A ONE ALFORM",
+    "name_abbr": "에이원알폼"
+  },
+  "이엠티": {
+    "standard_code": "KR7232530006",
+    "short_code": "232530",
+    "name_kor": "이엠티",
+    "name_eng": "Energy Material Tech",
+    "name_abbr": "이엠티"
+  },
+  "인산가": {
+    "standard_code": "KR7062580006",
+    "short_code": "062580",
+    "name_kor": "인산가",
+    "name_eng": "INSAN",
+    "name_abbr": "인산가"
+  },
+  "크로넥스": {
+    "standard_code": "KR7215570003",
+    "short_code": "215570",
+    "name_kor": "크로넥스",
+    "name_eng": "CRONEX",
+    "name_abbr": "크로넥스"
+  },
+  "하우동천": {
+    "standard_code": "KR7233990001",
+    "short_code": "233990",
+    "name_kor": "하우동천",
+    "name_eng": "HAUDONGCHUN",
+    "name_abbr": "하우동천"
+  },
+  "메디젠휴먼케어": {
+    "standard_code": "KR7236340006",
+    "short_code": "236340",
+    "name_kor": "메디젠휴먼케어",
+    "name_eng": "Medizen Humancare",
+    "name_abbr": "메디젠휴먼케어"
+  },
+  "선바이오": {
+    "standard_code": "KR7067370007",
+    "short_code": "067370",
+    "name_kor": "선바이오",
+    "name_eng": "SunBio",
+    "name_abbr": "선바이오"
+  },
+  "케이엠제약": {
+    "standard_code": "KR7237720008",
+    "short_code": "237720",
+    "name_kor": "케이엠제약",
+    "name_eng": "KMPHARMACEUTICAL",
+    "name_abbr": "케이엠제약"
+  },
+  "바이옵트로": {
+    "standard_code": "KR7222160004",
+    "short_code": "222160",
+    "name_kor": "바이옵트로",
+    "name_eng": "Bioptro",
+    "name_abbr": "바이옵트로"
+  },
+  "씨케이컴퍼니": {
+    "standard_code": "KR7235090008",
+    "short_code": "235090",
+    "name_kor": "씨케이컴퍼니",
+    "name_eng": "CK COMPANY",
+    "name_abbr": "씨케이컴퍼니"
+  },
+  "SGA시스템즈": {
+    "standard_code": "KR7232290007",
+    "short_code": "232290",
+    "name_kor": "SGA시스템즈",
+    "name_eng": "SGA SYSTEMS",
+    "name_abbr": "SGA시스템즈"
+  },
+  "로보쓰리": {
+    "standard_code": "KR7238500003",
+    "short_code": "238500",
+    "name_kor": "로보쓰리",
+    "name_eng": "Robo3",
+    "name_abbr": "로보쓰리"
+  },
+  "인터코스": {
+    "standard_code": "KR7240340000",
+    "short_code": "240340",
+    "name_kor": "인터코스",
+    "name_eng": "Interkos",
+    "name_abbr": "인터코스"
+  },
+  "에이치앤아이": {
+    "standard_code": "KR7103650008",
+    "short_code": "103650",
+    "name_kor": "에이치앤아이",
+    "name_eng": "H&I.,LTD",
+    "name_abbr": "에이치앤아이"
+  },
+  "엠로": {
+    "standard_code": "KR7058970005",
+    "short_code": "058970",
+    "name_kor": "엠로",
+    "name_eng": "EMRO",
+    "name_abbr": "엠로"
+  },
+  "오스테오닉": {
+    "standard_code": "KR7226400000",
+    "short_code": "226400",
+    "name_kor": "오스테오닉",
+    "name_eng": "OSTEONIC",
+    "name_abbr": "오스테오닉"
+  },
+  "이에스산업": {
+    "standard_code": "KR7241510007",
+    "short_code": "241510",
+    "name_kor": "이에스산업",
+    "name_eng": "ES INDUSTRY",
+    "name_abbr": "이에스산업"
+  },
+  "본느": {
+    "standard_code": "KR7242420008",
+    "short_code": "242420",
+    "name_kor": "본느",
+    "name_eng": "BONNE",
+    "name_abbr": "본느"
+  },
+  "영현무역": {
+    "standard_code": "KR7242850006",
+    "short_code": "242850",
+    "name_kor": "영현무역",
+    "name_eng": "YOUNG HYUN TRADING",
+    "name_abbr": "영현무역"
+  },
+  "나눔테크": {
+    "standard_code": "KR7244880001",
+    "short_code": "244880",
+    "name_kor": "나눔테크",
+    "name_eng": "NANOOM",
+    "name_abbr": "나눔테크"
+  },
+  "스페이스솔루션": {
+    "standard_code": "KR7245030002",
+    "short_code": "245030",
+    "name_kor": "스페이스솔루션",
+    "name_eng": "SPACE",
+    "name_abbr": "스페이스솔루션"
+  },
+  "KC산업": {
+    "standard_code": "KR7112190004",
+    "short_code": "112190",
+    "name_kor": "케이씨산업",
+    "name_eng": "KC INDUSTRY",
+    "name_abbr": "KC산업"
+  },
+  "줌인터넷": {
+    "standard_code": "KR7229480009",
+    "short_code": "229480",
+    "name_kor": "줌인터넷",
+    "name_eng": "ZUM internet",
+    "name_abbr": "줌인터넷"
+  },
+  "씨앤에스링크": {
+    "standard_code": "KR7245450002",
+    "short_code": "245450",
+    "name_kor": "씨앤에스링크",
+    "name_eng": "CNSLINK",
+    "name_abbr": "씨앤에스링크"
+  },
+  "에스엘에스": {
+    "standard_code": "KR7246250005",
+    "short_code": "246250",
+    "name_kor": "에스엘에스",
+    "name_eng": "SLS",
+    "name_abbr": "에스엘에스"
+  },
+  "이비테크": {
+    "standard_code": "KR7208850008",
+    "short_code": "208850",
+    "name_kor": "이비테크",
+    "name_eng": "EB TECH",
+    "name_abbr": "이비테크"
+  },
+  "시냅스엠": {
+    "standard_code": "KR7246830004",
+    "short_code": "246830",
+    "name_kor": "시냅스엠",
+    "name_eng": "SCENM",
+    "name_abbr": "시냅스엠"
+  },
+  "인프라웨어테크놀러지": {
+    "standard_code": "KR7247300007",
+    "short_code": "247300",
+    "name_kor": "인프라웨어테크놀러지",
+    "name_eng": "INFRAWARE TECHNOLOGY",
+    "name_abbr": "인프라웨어테크놀러지"
+  },
+  "디오메디칼": {
+    "standard_code": "KR7212310007",
+    "short_code": "212310",
+    "name_kor": "디오메디칼",
+    "name_eng": "DIOMEDICAL",
+    "name_abbr": "디오메디칼"
+  },
+  "링크제니시스": {
+    "standard_code": "KR7219420007",
+    "short_code": "219420",
+    "name_kor": "링크제니시스",
+    "name_eng": "Linkgenesis",
+    "name_abbr": "링크제니시스"
+  },
+  "에스케이씨에스": {
+    "standard_code": "KR7224020008",
+    "short_code": "224020",
+    "name_kor": "에스케이씨에스",
+    "name_eng": "SKCS",
+    "name_abbr": "에스케이씨에스"
+  },
+  "제노텍": {
+    "standard_code": "KR7066830001",
+    "short_code": "066830",
+    "name_kor": "제노텍",
+    "name_eng": "GENOTECH",
+    "name_abbr": "제노텍"
+  },
+  "지노믹트리": {
+    "standard_code": "KR7228760005",
+    "short_code": "228760",
+    "name_kor": "지노믹트리",
+    "name_eng": "Genomictree",
+    "name_abbr": "지노믹트리"
+  },
+  "제이에스피브이": {
+    "standard_code": "KR7250300001",
+    "short_code": "250300",
+    "name_kor": "제이에스피브이",
+    "name_eng": "JSPV",
+    "name_abbr": "제이에스피브이"
+  },
+  "티케이씨": {
+    "standard_code": "KR7191600006",
+    "short_code": "191600",
+    "name_kor": "티케이씨",
+    "name_eng": "TKC",
+    "name_abbr": "티케이씨"
+  },
+  "빅텐츠": {
+    "standard_code": "KR7210120002",
+    "short_code": "210120",
+    "name_kor": "빅토리콘텐츠",
+    "name_eng": "Victory Contents Co.,Ltd.",
+    "name_abbr": "빅텐츠"
+  },
+  "피엔에이치테크": {
+    "standard_code": "KR7239890007",
+    "short_code": "239890",
+    "name_kor": "피엔에이치테크",
+    "name_eng": "P&H TECH",
+    "name_abbr": "피엔에이치테크"
+  },
+  "라온테크": {
+    "standard_code": "KR7232680009",
+    "short_code": "232680",
+    "name_kor": "라온테크",
+    "name_eng": "RAONTEC",
+    "name_abbr": "라온테크"
+  },
+  "엠에프엠코리아": {
+    "standard_code": "KR7251960001",
+    "short_code": "251960",
+    "name_kor": "엠에프엠코리아",
+    "name_eng": "MFM KOREA",
+    "name_abbr": "엠에프엠코리아"
+  },
+  "지오씨": {
+    "standard_code": "KR7135160000",
+    "short_code": "135160",
+    "name_kor": "지오씨",
+    "name_eng": "GOC",
+    "name_abbr": "지오씨"
+  },
+  "에스엠로보틱스": {
+    "standard_code": "KR7252940002",
+    "short_code": "252940",
+    "name_kor": "에스엠로보틱스",
+    "name_eng": "SMROBOTICS",
+    "name_abbr": "에스엠로보틱스"
+  },
+  "유쎌": {
+    "standard_code": "KR7252370002",
+    "short_code": "252370",
+    "name_kor": "유쎌",
+    "name_eng": "YOUCEL",
+    "name_abbr": "유쎌"
+  },
+  "굿센": {
+    "standard_code": "KR7243870003",
+    "short_code": "243870",
+    "name_kor": "굿센",
+    "name_eng": "Goodcen",
+    "name_abbr": "굿센"
+  },
+  "안지오랩": {
+    "standard_code": "KR7251280004",
+    "short_code": "251280",
+    "name_kor": "안지오랩",
+    "name_eng": "AngioLab",
+    "name_abbr": "안지오랩"
+  },
+  "비플라이소프트": {
+    "standard_code": "KR7148780000",
+    "short_code": "148780",
+    "name_kor": "비플라이소프트",
+    "name_eng": "BFLYSOFT",
+    "name_abbr": "비플라이소프트"
+  },
+  "수젠텍": {
+    "standard_code": "KR7253840003",
+    "short_code": "253840",
+    "name_kor": "수젠텍",
+    "name_eng": "Sugentech",
+    "name_abbr": "수젠텍"
+  },
+  "나무기술": {
+    "standard_code": "KR7167380005",
+    "short_code": "167380",
+    "name_kor": "나무기술",
+    "name_eng": "NAMU TECH",
+    "name_abbr": "나무기술"
+  },
+  "스템랩": {
+    "standard_code": "KR7258540004",
+    "short_code": "258540",
+    "name_kor": "스템랩",
+    "name_eng": "StemLab",
+    "name_abbr": "스템랩"
+  },
+  "시큐센": {
+    "standard_code": "KR7232830000",
+    "short_code": "232830",
+    "name_kor": "시큐센",
+    "name_eng": "SECUCEN",
+    "name_abbr": "시큐센"
+  },
+  "바이오프로테크": {
+    "standard_code": "KR7199290008",
+    "short_code": "199290",
+    "name_kor": "바이오프로테크",
+    "name_eng": "BIOPROTECH",
+    "name_abbr": "바이오프로테크"
+  },
+  "피시피아비아이티": {
+    "standard_code": "KR7258250000",
+    "short_code": "258250",
+    "name_kor": "피시피아비아이티",
+    "name_eng": "PCPIA BIT",
+    "name_abbr": "피시피아비아이티"
+  },
+  "에스앤디": {
+    "standard_code": "KR7260970009",
+    "short_code": "260970",
+    "name_kor": "에스앤디",
+    "name_eng": "S&D",
+    "name_abbr": "에스앤디"
+  },
+  "오백볼트": {
+    "standard_code": "KR7227420007",
+    "short_code": "227420",
+    "name_kor": "오백볼트",
+    "name_eng": "500V",
+    "name_abbr": "오백볼트"
+  },
+  "오파스넷": {
+    "standard_code": "KR7173130006",
+    "short_code": "173130",
+    "name_kor": "오파스넷",
+    "name_eng": "OPASNET",
+    "name_abbr": "오파스넷"
+  },
+  "전우정밀": {
+    "standard_code": "KR7120780002",
+    "short_code": "120780",
+    "name_kor": "전우정밀",
+    "name_eng": "JEONWOO",
+    "name_abbr": "전우정밀"
+  },
+  "캐로스": {
+    "standard_code": "KR7260490008",
+    "short_code": "260490",
+    "name_kor": "캐로스",
+    "name_eng": "CAROS",
+    "name_abbr": "캐로스"
+  },
+  "케이피에스": {
+    "standard_code": "KR7256940008",
+    "short_code": "256940",
+    "name_kor": "케이피에스",
+    "name_eng": "KPS",
+    "name_abbr": "케이피에스"
+  },
+  "패션플랫폼": {
+    "standard_code": "KR7256090002",
+    "short_code": "256090",
+    "name_kor": "패션플랫폼",
+    "name_eng": "Fashion Platform",
+    "name_abbr": "패션플랫폼"
+  },
+  "피엔아이시스템": {
+    "standard_code": "KR7242350007",
+    "short_code": "242350",
+    "name_kor": "피엔아이시스템",
+    "name_eng": "PNIsystem",
+    "name_abbr": "피엔아이시스템"
+  },
+  "케미메디": {
+    "standard_code": "KR7205290000",
+    "short_code": "205290",
+    "name_kor": "케미메디",
+    "name_eng": "KMI",
+    "name_abbr": "케미메디"
+  },
+  "비디아이": {
+    "standard_code": "KR7148140007",
+    "short_code": "148140",
+    "name_kor": "비디아이",
+    "name_eng": "BDI",
+    "name_abbr": "비디아이"
+  },
+  "앙츠": {
+    "standard_code": "KR7267810000",
+    "short_code": "267810",
+    "name_kor": "앙츠",
+    "name_eng": "ANTZ",
+    "name_abbr": "앙츠"
+  },
+  "에스와이제이": {
+    "standard_code": "KR7251540001",
+    "short_code": "251540",
+    "name_kor": "에스와이제이",
+    "name_eng": "SYJ",
+    "name_abbr": "에스와이제이"
+  },
+  "엠앤씨생명과학": {
+    "standard_code": "KR7225860006",
+    "short_code": "225860",
+    "name_kor": "엠앤씨생명과학",
+    "name_eng": "M&C Life Science",
+    "name_abbr": "엠앤씨생명과학"
+  },
+  "티씨엠생명과학": {
+    "standard_code": "KR7228180006",
+    "short_code": "228180",
+    "name_kor": "티씨엠생명과학",
+    "name_eng": "TCM BIOSCIENCES",
+    "name_abbr": "티씨엠생명과학"
+  },
+  "플렉스파워에이더블유에스": {
+    "standard_code": "KR7266870005",
+    "short_code": "266870",
+    "name_kor": "플렉스파워에이더블유에스",
+    "name_eng": "Flex Power AWS",
+    "name_abbr": "플렉스파워에이더블유에스"
+  },
+  "휴벡셀": {
+    "standard_code": "KR7212310007",
+    "short_code": "212310",
+    "name_kor": "휴벡셀",
+    "name_eng": "HUVEXEL",
+    "name_abbr": "휴벡셀"
+  },
+  "SGA임베디드": {
+    "standard_code": "KR7224880005",
+    "short_code": "224880",
+    "name_kor": "에스지에이임베디드",
+    "name_eng": "SGA Embedded",
+    "name_abbr": "SGA임베디드"
+  },
+  "뿌리깊은나무들": {
+    "standard_code": "KR7266170000",
+    "short_code": "266170",
+    "name_kor": "뿌리깊은나무들",
+    "name_eng": "Redwoods",
+    "name_abbr": "뿌리깊은나무들"
+  },
+  "에스알바이오텍": {
+    "standard_code": "KR7270210008",
+    "short_code": "270210",
+    "name_kor": "에스알바이오텍",
+    "name_eng": "SR biotek",
+    "name_abbr": "에스알바이오텍"
+  },
+  "극동자동화": {
+    "standard_code": "KR7272420001",
+    "short_code": "272420",
+    "name_kor": "극동자동화",
+    "name_eng": "KDA",
+    "name_abbr": "극동자동화"
+  },
+  "다이오진": {
+    "standard_code": "KR7271850000",
+    "short_code": "271850",
+    "name_kor": "다이오진",
+    "name_eng": "DIOGENE",
+    "name_abbr": "다이오진"
+  },
+  "메디안디노스틱": {
+    "standard_code": "KR7233250000",
+    "short_code": "233250",
+    "name_kor": "메디안디노스틱",
+    "name_eng": "Median Diagnostics",
+    "name_abbr": "메디안디노스틱"
+  },
+  "주노콜렉션": {
+    "standard_code": "KR7221670003",
+    "short_code": "221670",
+    "name_kor": "주노콜렉션",
+    "name_eng": "JUNO COLLECTION",
+    "name_abbr": "주노콜렉션"
+  },
+  "알로이스": {
+    "standard_code": "KR7271400004",
+    "short_code": "271400",
+    "name_kor": "알로이스",
+    "name_eng": "ALOYS",
+    "name_abbr": "알로이스"
+  },
+  "루켄테크놀러지스": {
+    "standard_code": "KR7162120000",
+    "short_code": "162120",
+    "name_kor": "루켄테크놀러지스",
+    "name_eng": "LUKEN Technologies",
+    "name_abbr": "루켄테크놀러지스"
+  },
+  "에브리봇": {
+    "standard_code": "KR7270660004",
+    "short_code": "270660",
+    "name_kor": "에브리봇",
+    "name_eng": "Everybot",
+    "name_abbr": "에브리봇"
+  },
+  "명진홀딩스": {
+    "standard_code": "KR7267060002",
+    "short_code": "267060",
+    "name_kor": "명진홀딩스",
+    "name_eng": "Myungjin Holdings",
+    "name_abbr": "명진홀딩스"
+  },
+  "포인트엔지니어링": {
+    "standard_code": "KR7176560001",
+    "short_code": "176560",
+    "name_kor": "포인트엔지니어링",
+    "name_eng": "POINTENG",
+    "name_abbr": "포인트엔지니어링"
+  },
+  "두원석재": {
+    "standard_code": "KR7270020001",
+    "short_code": "270020",
+    "name_kor": "두원석재",
+    "name_eng": "DOOWON",
+    "name_abbr": "두원석재"
+  },
+  "시그넷이브이": {
+    "standard_code": "KR7260870001",
+    "short_code": "260870",
+    "name_kor": "시그넷이브이",
+    "name_eng": "SIGNET EV",
+    "name_abbr": "시그넷이브이"
+  },
+  "에스엘에스바이오": {
+    "standard_code": "KR7246250005",
+    "short_code": "246250",
+    "name_kor": "에스엘에스바이오",
+    "name_eng": "SLS BIO",
+    "name_abbr": "에스엘에스바이오"
+  },
+  "구름게임즈앤컴퍼니": {
+    "standard_code": "KR7223220005",
+    "short_code": "223220",
+    "name_kor": "구름게임즈앤컴퍼니",
+    "name_eng": "GURUM GAMES & COMPANY",
+    "name_abbr": "구름게임즈앤컴퍼니"
+  },
+  "에프엠에스": {
+    "standard_code": "KR7278990007",
+    "short_code": "278990",
+    "name_kor": "에프엠에스",
+    "name_eng": "FMS",
+    "name_abbr": "에프엠에스"
+  },
+  "탑선": {
+    "standard_code": "KR7180060006",
+    "short_code": "180060",
+    "name_kor": "탑선",
+    "name_eng": "TOPSUN",
+    "name_abbr": "탑선"
+  },
+  "티에스아이": {
+    "standard_code": "KR7277880001",
+    "short_code": "277880",
+    "name_kor": "티에스아이",
+    "name_eng": "TSI",
+    "name_abbr": "티에스아이"
+  },
+  "미디어젠": {
+    "standard_code": "KR7279600001",
+    "short_code": "279600",
+    "name_kor": "미디어젠",
+    "name_eng": "MediaZen",
+    "name_abbr": "미디어젠"
+  },
+  "미코나노바이오시스": {
+    "standard_code": "KR7214610008",
+    "short_code": "214610",
+    "name_kor": "미코나노바이오시스",
+    "name_eng": "MiCo NanoBioSys",
+    "name_abbr": "미코나노바이오시스"
+  },
+  "바이오시네틱스": {
+    "standard_code": "KR7281310003",
+    "short_code": "281310",
+    "name_kor": "바이오시네틱스",
+    "name_eng": "BIOSYNECTICS",
+    "name_abbr": "바이오시네틱스"
+  },
+  "씨알푸드": {
+    "standard_code": "KR7236030003",
+    "short_code": "236030",
+    "name_kor": "씨알푸드",
+    "name_eng": "SSIAL FOOD",
+    "name_abbr": "씨알푸드"
+  },
+  "휴럼": {
+    "standard_code": "KR7284420007",
+    "short_code": "284420",
+    "name_kor": "휴럼",
+    "name_eng": "Hurum",
+    "name_abbr": "휴럼"
+  },
+  "라이프사이언스테크놀로지": {
+    "standard_code": "KR7285770004",
+    "short_code": "285770",
+    "name_kor": "라이프사이언스테크놀로지",
+    "name_eng": "Life Science Technology",
+    "name_abbr": "라이프사이언스테크놀로지"
+  },
+  "탈모닷컴": {
+    "standard_code": "KR7284610003",
+    "short_code": "284610",
+    "name_kor": "탈모닷컴",
+    "name_eng": "TALMOCOM",
+    "name_abbr": "탈모닷컴"
+  },
+  "태경피엔에스": {
+    "standard_code": "KR7235090008",
+    "short_code": "235090",
+    "name_kor": "태경피엔에스",
+    "name_eng": "TAEKYUNG PNS",
+    "name_abbr": "태경피엔에스"
+  },
+  "위세아이텍": {
+    "standard_code": "KR7065370009",
+    "short_code": "065370",
+    "name_kor": "위세아이텍",
+    "name_eng": "WISE iTech",
+    "name_abbr": "위세아이텍"
+  },
+  "TS트릴리온": {
+    "standard_code": "KR7284610003",
+    "short_code": "284610",
+    "name_kor": "티에스트릴리온",
+    "name_eng": "TS Trillion",
+    "name_abbr": "TS트릴리온"
+  },
+  "피엔아이컴퍼니": {
+    "standard_code": "KR7242350007",
+    "short_code": "242350",
+    "name_kor": "피엔아이컴퍼니",
+    "name_eng": "PNIcompany",
+    "name_abbr": "피엔아이컴퍼니"
+  },
+  "미코바이오메드": {
+    "standard_code": "KR7214610008",
+    "short_code": "214610",
+    "name_kor": "미코바이오메드",
+    "name_eng": "MiCo BioMed",
+    "name_abbr": "미코바이오메드"
+  },
+  "에스제이켐": {
+    "standard_code": "KR7217910009",
+    "short_code": "217910",
+    "name_kor": "에스제이켐",
+    "name_eng": "SJ-CHEM",
+    "name_abbr": "에스제이켐"
+  },
+  "파마리서치바이오": {
+    "standard_code": "KR7217950005",
+    "short_code": "217950",
+    "name_kor": "파마리서치바이오",
+    "name_eng": "PHARMARESEARCH BIO",
+    "name_abbr": "파마리서치바이오"
+  },
+  "파인이엠텍": {
+    "standard_code": "KR7278990007",
+    "short_code": "278990",
+    "name_kor": "파인이엠텍",
+    "name_eng": "FINE EM TECH",
+    "name_abbr": "파인이엠텍"
+  },
+  "다이노나": {
+    "standard_code": "KR7086080009",
+    "short_code": "086080",
+    "name_kor": "다이노나",
+    "name_eng": "DiNonA",
+    "name_abbr": "다이노나"
+  },
+  "디피코": {
+    "standard_code": "KR7163430002",
+    "short_code": "163430",
+    "name_kor": "디피코",
+    "name_eng": "DPECO",
+    "name_abbr": "디피코"
+  },
+  "셀젠텍": {
+    "standard_code": "KR7258250000",
+    "short_code": "258250",
+    "name_kor": "셀젠텍",
+    "name_eng": "CELLGENTEK",
+    "name_abbr": "셀젠텍"
+  },
+  "에스엠비나": {
+    "standard_code": "KR7299670000",
+    "short_code": "299670",
+    "name_kor": "에스엠비나",
+    "name_eng": "SMVINA",
+    "name_abbr": "에스엠비나"
+  },
+  "지앤이바이오텍": {
+    "standard_code": "KR7299480004",
+    "short_code": "299480",
+    "name_kor": "지앤이바이오텍",
+    "name_eng": "G&E Biotech",
+    "name_abbr": "지앤이바이오텍"
+  },
+  "에듀파트너": {
+    "standard_code": "KR7208890004",
+    "short_code": "208890",
+    "name_kor": "에듀파트너",
+    "name_eng": "Edupartner",
+    "name_abbr": "에듀파트너"
+  },
+  "엘리비젼": {
+    "standard_code": "KR7276240009",
+    "short_code": "276240",
+    "name_kor": "엘리비젼",
+    "name_eng": "Elivision",
+    "name_abbr": "엘리비젼"
+  },
+  "테크트랜스": {
+    "standard_code": "KR7258050004",
+    "short_code": "258050",
+    "name_kor": "테크트랜스",
+    "name_eng": "Tech Trans",
+    "name_abbr": "테크트랜스"
+  },
+  "파워풀엑스": {
+    "standard_code": "KR7266870005",
+    "short_code": "266870",
+    "name_kor": "파워풀엑스",
+    "name_eng": "Power Fulx",
+    "name_abbr": "파워풀엑스"
+  },
+  "엔케이맥스": {
+    "standard_code": "KR7262760002",
+    "short_code": "262760",
+    "name_kor": "엔케이맥스",
+    "name_eng": "NKMAX",
+    "name_abbr": "엔케이맥스"
+  },
+  "더콘텐츠온": {
+    "standard_code": "KR7302920004",
+    "short_code": "302920",
+    "name_kor": "더콘텐츠온",
+    "name_eng": "TCO",
+    "name_abbr": "더콘텐츠온"
+  },
+  "리메드": {
+    "standard_code": "KR7302550009",
+    "short_code": "302550",
+    "name_kor": "리메드",
+    "name_eng": "REMED",
+    "name_abbr": "리메드"
+  },
+  "골프존데카": {
+    "standard_code": "KR7183410000",
+    "short_code": "183410",
+    "name_kor": "골프존데카",
+    "name_eng": "GolfzonDeca",
+    "name_abbr": "골프존데카"
+  },
+  "엔솔바이오": {
+    "standard_code": "KR7140610007",
+    "short_code": "140610",
+    "name_kor": "엔솔바이오사이언스",
+    "name_eng": "Ensol Bio",
+    "name_abbr": "엔솔바이오"
+  },
+  "엔솔바이오사이언스": {
+    "standard_code": "KR7140610007",
+    "short_code": "140610",
+    "name_kor": "엔솔바이오사이언스",
+    "name_eng": "Ensol Biosciences",
+    "name_abbr": "엔솔바이오사이언스"
+  },
+  "아이엘사이언스": {
+    "standard_code": "KR7122050008",
+    "short_code": "122050",
+    "name_kor": "아이엘사이언스",
+    "name_eng": "IL SCIENCE",
+    "name_abbr": "아이엘사이언스"
+  },
+  "아이피몬스터": {
+    "standard_code": "KR7223220005",
+    "short_code": "223220",
+    "name_kor": "아이피몬스터",
+    "name_eng": "IP Monster",
+    "name_abbr": "아이피몬스터"
+  },
+  "나라소프트": {
+    "standard_code": "KR7288490006",
+    "short_code": "288490",
+    "name_kor": "나라소프트",
+    "name_eng": "NARASOFT",
+    "name_abbr": "나라소프트"
+  },
+  "비엔에프코퍼레이션": {
+    "standard_code": "KR7271780009",
+    "short_code": "271780",
+    "name_kor": "비엔에프코퍼레이션",
+    "name_eng": "BNF",
+    "name_abbr": "비엔에프코퍼레이션"
+  },
+  "앤유엔터테인먼트": {
+    "standard_code": "KR7266170000",
+    "short_code": "266170",
+    "name_kor": "앤유엔터테인먼트",
+    "name_eng": "ANDu Entertainment",
+    "name_abbr": "앤유엔터테인먼트"
+  },
+  "에이펙스인텍": {
+    "standard_code": "KR7207490004",
+    "short_code": "207490",
+    "name_kor": "에이펙스인텍",
+    "name_eng": "APEX INTEC",
+    "name_abbr": "에이펙스인텍"
+  },
+  "지앤이헬스케어": {
+    "standard_code": "KR7299480004",
+    "short_code": "299480",
+    "name_kor": "지앤이헬스케어",
+    "name_eng": "G&E Healthcare",
+    "name_abbr": "지앤이헬스케어"
+  },
+  "질경이": {
+    "standard_code": "KR7233990001",
+    "short_code": "233990",
+    "name_kor": "질경이",
+    "name_eng": "JILGYUNGYI",
+    "name_abbr": "질경이"
+  },
+  "대원모방": {
+    "standard_code": "KR7311840003",
+    "short_code": "311840",
+    "name_kor": "대원모방",
+    "name_eng": "DAEWON WOOL TEXTILE",
+    "name_abbr": "대원모방"
+  },
+  "엘에이티": {
+    "standard_code": "KR7311060008",
+    "short_code": "311060",
+    "name_kor": "엘에이티",
+    "name_eng": "LAT",
+    "name_abbr": "엘에이티"
+  },
+  "지놈앤컴퍼니": {
+    "standard_code": "KR7314130006",
+    "short_code": "314130",
+    "name_kor": "지놈앤컴퍼니",
+    "name_eng": "Genome&Company",
+    "name_abbr": "지놈앤컴퍼니"
+  },
+  "테크엔": {
+    "standard_code": "KR7308700004",
+    "short_code": "308700",
+    "name_kor": "테크엔",
+    "name_eng": "TECHEN",
+    "name_abbr": "테크엔"
+  },
+  "프로테옴텍": {
+    "standard_code": "KR7303360002",
+    "short_code": "303360",
+    "name_kor": "프로테옴텍",
+    "name_eng": "PROTEOMETECH",
+    "name_abbr": "프로테옴텍"
+  },
+  "포레스팅블록체인": {
+    "standard_code": "KR7227420007",
+    "short_code": "227420",
+    "name_kor": "포레스팅블록체인",
+    "name_eng": "FORESTING BlockChain",
+    "name_abbr": "포레스팅블록체인"
+  },
+  "이노벡스": {
+    "standard_code": "KR7279060008",
+    "short_code": "279060",
+    "name_kor": "이노벡스",
+    "name_eng": "INNOVEX",
+    "name_abbr": "이노벡스"
+  },
+  "LPK로보틱스": {
+    "standard_code": "KR7183350008",
+    "short_code": "183350",
+    "name_kor": "엘피케이로보틱스",
+    "name_eng": "LPK ROBOTICS",
+    "name_abbr": "LPK로보틱스"
+  },
+  "다원넥스뷰": {
+    "standard_code": "KR7323350009",
+    "short_code": "323350",
+    "name_kor": "다원넥스뷰",
+    "name_eng": "DAWON NEXVIEW",
+    "name_abbr": "다원넥스뷰"
+  },
+  "원바이오젠": {
+    "standard_code": "KR7278380001",
+    "short_code": "278380",
+    "name_kor": "원바이오젠",
+    "name_eng": "Wonbiogen",
+    "name_abbr": "원바이오젠"
+  },
+  "티티씨디펜스": {
+    "standard_code": "KR7309900009",
+    "short_code": "309900",
+    "name_kor": "티티씨디펜스",
+    "name_eng": "TTC DEFENCE",
+    "name_abbr": "티티씨디펜스"
+  },
+  "구스앤홈": {
+    "standard_code": "KR7329050009",
+    "short_code": "329050",
+    "name_kor": "구스앤홈",
+    "name_eng": "GOOSE & HOME",
+    "name_abbr": "구스앤홈"
+  },
+  "펨토바이오메드": {
+    "standard_code": "KR7327610002",
+    "short_code": "327610",
+    "name_kor": "펨토바이오메드",
+    "name_eng": "Femtobiomed",
+    "name_abbr": "펨토바이오메드"
+  },
+  "케어룸의료산업": {
+    "standard_code": "KR7327970000",
+    "short_code": "327970",
+    "name_kor": "케어룸의료산업",
+    "name_eng": "KAREROOM MEDICAL EQUIPMENT",
+    "name_abbr": "케어룸의료산업"
+  },
+  "아퓨어스": {
+    "standard_code": "KR7149300006",
+    "short_code": "149300",
+    "name_kor": "아퓨어스",
+    "name_eng": "APURES",
+    "name_abbr": "아퓨어스"
+  },
+  "엔지브이아이": {
+    "standard_code": "KR7093510006",
+    "short_code": "093510",
+    "name_kor": "엔지브이아이",
+    "name_eng": "NGVI",
+    "name_abbr": "엔지브이아이"
+  },
+  "청광건설": {
+    "standard_code": "KR7140290008",
+    "short_code": "140290",
+    "name_kor": "청광건설 주식회사",
+    "name_eng": "CHUNGKWANG CONSTRUCTION CO., LtD.",
+    "name_abbr": "청광건설"
+  },
+  "한국미라클피플사": {
+    "standard_code": "KR7331660001",
+    "short_code": "331660",
+    "name_kor": "한국미라클피플사",
+    "name_eng": "KOREA MIRACLE PEOPLE COMPANY",
+    "name_abbr": "한국미라클피플사"
+  },
+  "유엑스엔": {
+    "standard_code": "KR7337840003",
+    "short_code": "337840",
+    "name_kor": "유엑스엔",
+    "name_eng": "UXN",
+    "name_abbr": "유엑스엔"
+  },
+  "진코스텍": {
+    "standard_code": "KR7250030004",
+    "short_code": "250030",
+    "name_kor": "진코스텍",
+    "name_eng": "JINCOSTECH",
+    "name_abbr": "진코스텍"
+  },
+  "노드메이슨": {
+    "standard_code": "KR7317860005",
+    "short_code": "317860",
+    "name_kor": "노드메이슨",
+    "name_eng": "Nordmason",
+    "name_abbr": "노드메이슨"
+  },
+  "이도바이오": {
+    "standard_code": "KR7336040001",
+    "short_code": "336040",
+    "name_kor": "이도바이오",
+    "name_eng": "YIDOBIO",
+    "name_abbr": "이도바이오"
+  },
+  "애드바이오텍": {
+    "standard_code": "KR7179530001",
+    "short_code": "179530",
+    "name_kor": "애드바이오텍",
+    "name_eng": "ADBIOTECH",
+    "name_abbr": "애드바이오텍"
+  },
+  "엔에스엠": {
+    "standard_code": "KR7238170005",
+    "short_code": "238170",
+    "name_kor": "엔에스엠",
+    "name_eng": "NSM",
+    "name_abbr": "엔에스엠"
+  },
+  "이앤에치": {
+    "standard_code": "KR7341310001",
+    "short_code": "341310",
+    "name_kor": "이앤에치",
+    "name_eng": "E&H",
+    "name_abbr": "이앤에치"
+  },
+  "이십일스토어": {
+    "standard_code": "KR7270020001",
+    "short_code": "270020",
+    "name_kor": "이십일스토어",
+    "name_eng": "21store",
+    "name_abbr": "이십일스토어"
+  },
+  "도부마스크": {
+    "standard_code": "KR7227420007",
+    "short_code": "227420",
+    "name_kor": "도부마스크",
+    "name_eng": "DOBU MASK",
+    "name_abbr": "도부마스크"
+  },
+  "단디바이오사이언스": {
+    "standard_code": "KR7343090007",
+    "short_code": "343090",
+    "name_kor": "단디바이오사이언스",
+    "name_eng": "DanDi Bioscience",
+    "name_abbr": "단디바이오사이언스"
+  },
+  "이노진": {
+    "standard_code": "KR7344860002",
+    "short_code": "344860",
+    "name_kor": "이노진",
+    "name_eng": "INNOGENE",
+    "name_abbr": "이노진"
+  },
+  "단디바이오": {
+    "standard_code": "KR7343090007",
+    "short_code": "343090",
+    "name_kor": "단디바이오사이언스",
+    "name_eng": "DanDiBio",
+    "name_abbr": "단디바이오"
+  },
+  "오션스톤": {
+    "standard_code": "KR7329020002",
+    "short_code": "329020",
+    "name_kor": "오션스톤",
+    "name_eng": "Ocean Stone",
+    "name_abbr": "오션스톤"
+  },
+  "무진메디": {
+    "standard_code": "KR7322970005",
+    "short_code": "322970",
+    "name_kor": "무진메디",
+    "name_eng": "Moogene Medi",
+    "name_abbr": "무진메디"
+  },
+  "폭스소프트": {
+    "standard_code": "KR7354230005",
+    "short_code": "354230",
+    "name_kor": "폭스소프트",
+    "name_eng": "foxSoft",
+    "name_abbr": "폭스소프트"
+  },
+  "바이오인프라생명과학": {
+    "standard_code": "KR7266470004",
+    "short_code": "266470",
+    "name_kor": "바이오인프라생명과학",
+    "name_eng": "BioInfra Life Science",
+    "name_abbr": "바이오인프라생명과학"
+  },
+  "데이드림엔터": {
+    "standard_code": "KR7348840000",
+    "short_code": "348840",
+    "name_kor": "데이드림엔터테인먼트",
+    "name_eng": "Daydream",
+    "name_abbr": "데이드림엔터"
+  },
+  "SGA클라우드서비스": {
+    "standard_code": "KR7224880005",
+    "short_code": "224880",
+    "name_kor": "에스지에이클라우드서비스",
+    "name_eng": "SGA CloudService",
+    "name_abbr": "SGA클라우드서비스"
+  },
+  "미래엔에듀파트너": {
+    "standard_code": "KR7208890004",
+    "short_code": "208890",
+    "name_kor": "미래엔에듀파트너",
+    "name_eng": "MiraeN Edupartner Co., Ltd.",
+    "name_abbr": "미래엔에듀파트너"
+  },
+  "원포유": {
+    "standard_code": "KR7122830003",
+    "short_code": "122830",
+    "name_kor": "원포유",
+    "name_eng": "ONE4U",
+    "name_abbr": "원포유"
+  },
+  "씨엔티드림": {
+    "standard_code": "KR7286000005",
+    "short_code": "286000",
+    "name_kor": "씨엔티드림",
+    "name_eng": "CNT Dream",
+    "name_abbr": "씨엔티드림"
+  },
+  "루트락": {
+    "standard_code": "KR7253610000",
+    "short_code": "253610",
+    "name_kor": "루트락",
+    "name_eng": "Rootloc",
+    "name_abbr": "루트락"
+  },
+  "나우코스": {
+    "standard_code": "KR7257990002",
+    "short_code": "257990",
+    "name_kor": "나우코스",
+    "name_eng": "NOWCOS",
+    "name_abbr": "나우코스"
+  },
+  "에이스캠퍼": {
+    "standard_code": "KR7322190000",
+    "short_code": "322190",
+    "name_kor": "에이스캠퍼",
+    "name_eng": "ACE CAMPER",
+    "name_abbr": "에이스캠퍼"
+  },
+  "렌딩머신": {
+    "standard_code": "KR7179720008",
+    "short_code": "179720",
+    "name_kor": "렌딩머신",
+    "name_eng": "LendingMachine Co., Ltd.",
+    "name_abbr": "렌딩머신"
+  },
+  "이엠비": {
+    "standard_code": "KR7278990007",
+    "short_code": "278990",
+    "name_kor": "이엠비",
+    "name_eng": "EMB",
+    "name_abbr": "이엠비"
+  },
+  "EMB": {
+    "standard_code": "KR7278990007",
+    "short_code": "278990",
+    "name_kor": "이엠비",
+    "name_eng": "EMB",
+    "name_abbr": "EMB"
+  },
+  "인바이츠바이오코아": {
+    "standard_code": "KR7216400002",
+    "short_code": "216400",
+    "name_kor": "인바이츠바이오코아",
+    "name_eng": "INVITES BIOCORE",
+    "name_abbr": "인바이츠바이오코아"
+  },
+  "블루탑": {
+    "standard_code": "KR7191600006",
+    "short_code": "191600",
+    "name_kor": "블루탑",
+    "name_eng": "BLUETOP",
+    "name_abbr": "블루탑"
+  },
+  "이성씨엔아이": {
+    "standard_code": "KR7379390008",
+    "short_code": "379390",
+    "name_kor": "이성씨엔아이",
+    "name_eng": "IHSUNGCNI",
+    "name_abbr": "이성씨엔아이"
+  },
+  "타임기술": {
+    "standard_code": "KR7318660008",
+    "short_code": "318660",
+    "name_kor": "타임기술",
+    "name_eng": "TIME Technical Support",
+    "name_abbr": "타임기술"
+  },
+  "토마토시스템": {
+    "standard_code": "KR7393210000",
+    "short_code": "393210",
+    "name_kor": "토마토시스템",
+    "name_eng": "TOMATOSYSTEM",
+    "name_abbr": "토마토시스템"
+  },
+  "베른": {
+    "standard_code": "KR7322190000",
+    "short_code": "322190",
+    "name_kor": "베른",
+    "name_eng": "VERNE",
+    "name_abbr": "베른"
+  },
+  "젬": {
+    "standard_code": "KR7248020000",
+    "short_code": "248020",
+    "name_kor": "젬",
+    "name_eng": "ZAM",
+    "name_abbr": "젬"
+  },
+  "켈스": {
+    "standard_code": "KR7402420004",
+    "short_code": "402420",
+    "name_kor": "켈스",
+    "name_eng": "CALTH",
+    "name_abbr": "켈스"
+  },
+  "타스컴": {
+    "standard_code": "KR7336040001",
+    "short_code": "336040",
+    "name_kor": "타스컴",
+    "name_eng": "TASCOM",
+    "name_abbr": "타스컴"
+  },
+  "예스피치": {
+    "standard_code": "KR7403360001",
+    "short_code": "403360",
+    "name_kor": "예스피치",
+    "name_eng": "YESPEECH",
+    "name_abbr": "예스피치"
+  },
+  "제이엠멀티": {
+    "standard_code": "KR7254160005",
+    "short_code": "254160",
+    "name_kor": "제이엠멀티",
+    "name_eng": "JM-MULTI",
+    "name_abbr": "제이엠멀티"
+  },
+  "코스텍시스템": {
+    "standard_code": "KR7169670007",
+    "short_code": "169670",
+    "name_kor": "코스텍시스템",
+    "name_eng": "Kostek Systems",
+    "name_abbr": "코스텍시스템"
+  },
+  "로지스몬": {
+    "standard_code": "KR7223220005",
+    "short_code": "223220",
+    "name_kor": "로지스몬",
+    "name_eng": "Logis Mon",
+    "name_abbr": "로지스몬"
+  },
+  "SK시그넷": {
+    "standard_code": "KR7260870001",
+    "short_code": "260870",
+    "name_kor": "SK시그넷",
+    "name_eng": "SK Signet",
+    "name_abbr": "SK시그넷"
+  },
+  "라피치": {
+    "standard_code": "KR7403360001",
+    "short_code": "403360",
+    "name_kor": "라피치",
+    "name_eng": "RAPEECH",
+    "name_abbr": "라피치"
+  },
+  "HLB사이언스": {
+    "standard_code": "KR7343090007",
+    "short_code": "343090",
+    "name_kor": "에이치엘비사이언스",
+    "name_eng": "HLB SCIENCE",
+    "name_abbr": "HLB사이언스"
+  },
+  "비엘헬스케어": {
+    "standard_code": "KR7086220001",
+    "short_code": "086220",
+    "name_kor": "비엘헬스케어",
+    "name_eng": "BL Healthcare",
+    "name_abbr": "비엘헬스케어"
+  },
+  "코나솔": {
+    "standard_code": "KR7176590008",
+    "short_code": "176590",
+    "name_kor": "코나솔",
+    "name_eng": "KONASOL",
+    "name_abbr": "코나솔"
+  },
+  "무송지오씨": {
+    "standard_code": "KR7135160000",
+    "short_code": "135160",
+    "name_kor": "무송지오씨",
+    "name_eng": "MSGOC",
+    "name_abbr": "무송지오씨"
+  },
+  "바스칸바이오제약": {
+    "standard_code": "KR7354390007",
+    "short_code": "354390",
+    "name_kor": "바스칸바이오제약",
+    "name_eng": "BASKHANBIO",
+    "name_abbr": "바스칸바이오제약"
+  },
+  "퓨쳐메디신": {
+    "standard_code": "KR7341170009",
+    "short_code": "341170",
+    "name_kor": "퓨쳐메디신",
+    "name_eng": "Future Medicine",
+    "name_abbr": "퓨쳐메디신"
+  },
+  "티엘엔지니어링": {
+    "standard_code": "KR7413300005",
+    "short_code": "413300",
+    "name_kor": "티엘엔지니어링",
+    "name_eng": "TL Engineering",
+    "name_abbr": "티엘엔지니어링"
+  },
+  "탈로스": {
+    "standard_code": "KR7434190005",
+    "short_code": "434190",
+    "name_kor": "탈로스",
+    "name_eng": "Talos",
+    "name_abbr": "탈로스"
+  },
+  "아하": {
+    "standard_code": "KR7102950003",
+    "short_code": "102950",
+    "name_kor": "아하",
+    "name_eng": "AHA",
+    "name_abbr": "아하"
+  },
+  "에이아이더뉴트리진": {
+    "standard_code": "KR7311960009",
+    "short_code": "311960",
+    "name_kor": "에이아이더뉴트리진",
+    "name_eng": "AltheNutrigene",
+    "name_abbr": "에이아이더뉴트리진"
+  },
+  "마이크로엔엑스": {
+    "standard_code": "KR7448780007",
+    "short_code": "448780",
+    "name_kor": "마이크로엔엑스",
+    "name_eng": "MicroNX",
+    "name_abbr": "마이크로엔엑스"
+  },
+  "애니메디솔루션": {
+    "standard_code": "KR7390110005",
+    "short_code": "390110",
+    "name_kor": "애니메디솔루션",
+    "name_eng": "Anymedi",
+    "name_abbr": "애니메디솔루션"
+  },
+  "지에프씨생명과학": {
+    "standard_code": "KR7388610008",
+    "short_code": "388610",
+    "name_kor": "지에프씨생명과학",
+    "name_eng": "GFC Life Science",
+    "name_abbr": "지에프씨생명과학"
+  },
+  "카이바이오텍": {
+    "standard_code": "KR7446600009",
+    "short_code": "446600",
+    "name_kor": "카이바이오텍",
+    "name_eng": "KaiBioTech",
+    "name_abbr": "카이바이오텍"
+  },
+  "아이오바이오": {
+    "standard_code": "KR7447690009",
+    "short_code": "447690",
+    "name_kor": "아이오바이오",
+    "name_eng": "AIOBIO",
+    "name_abbr": "아이오바이오"
+  },
+  "에스엘테라퓨틱스": {
+    "standard_code": "KR7258540004",
+    "short_code": "258540",
+    "name_kor": "에스엘테라퓨틱스",
+    "name_eng": "SL Therapeutics",
+    "name_abbr": "에스엘테라퓨틱스"
+  },
+  "큐러블": {
+    "standard_code": "KR7086460003",
+    "short_code": "086460",
+    "name_kor": "큐러블",
+    "name_eng": "Cur",
+    "name_abbr": "큐러블"
+  },
+  "타이드": {
+    "standard_code": "KR7346010002",
+    "short_code": "346010",
+    "name_kor": "타이드",
+    "name_eng": "TIDE",
+    "name_abbr": "타이드"
+  },
+  "지슨": {
+    "standard_code": "KR7289860009",
+    "short_code": "289860",
+    "name_kor": "지슨",
+    "name_eng": "GITSN",
+    "name_abbr": "지슨"
+  },
+  "태양3C": {
+    "standard_code": "KR7052960002",
+    "short_code": "052960",
+    "name_kor": "태양3C",
+    "name_eng": "3CTY",
+    "name_abbr": "태양3C"
+  },
+  "노보믹스": {
+    "standard_code": "KR7283100006",
+    "short_code": "283100",
+    "name_kor": "노보믹스",
+    "name_eng": "Novomics",
+    "name_abbr": "노보믹스"
+  },
+  "로보쓰리에이아이앤로보틱스": {
+    "standard_code": "KR7238500003",
+    "short_code": "238500",
+    "name_kor": "로보쓰리에이아이앤로보틱스",
+    "name_eng": "Robo3 Ai & Robotics",
+    "name_abbr": "로보쓰리에이아이앤로보틱스"
+  },
+  "삼미금속": {
+    "standard_code": "KR7012210001",
+    "short_code": "012210",
+    "name_kor": "삼미금속",
+    "name_eng": "SMP",
+    "name_abbr": "삼미금속"
+  },
+  "큐라켐": {
+    "standard_code": "KR7456190008",
+    "short_code": "456190",
+    "name_kor": "큐라켐",
+    "name_eng": "CURACHEM",
+    "name_abbr": "큐라켐"
+  },
+  "가이아코퍼레이션": {
+    "standard_code": "KR7296520000",
+    "short_code": "296520",
+    "name_kor": "가이아코퍼레이션",
+    "name_eng": "GAIA CORPORATION",
+    "name_abbr": "가이아코퍼레이션"
+  },
+  "이브이파킹서비스": {
+    "standard_code": "KR7419700000",
+    "short_code": "419700",
+    "name_kor": "이브이파킹서비스",
+    "name_eng": "EVPS",
+    "name_abbr": "이브이파킹서비스"
+  },
+  "아이엠지티": {
+    "standard_code": "KR7456570001",
+    "short_code": "456570",
+    "name_kor": "아이엠지티",
+    "name_eng": "IMGT",
+    "name_abbr": "아이엠지티"
+  },
+  "길교이앤씨": {
+    "standard_code": "KR7456700004",
+    "short_code": "456700",
+    "name_kor": "길교이앤씨",
+    "name_eng": "GILGYO E&C",
+    "name_abbr": "길교이앤씨"
+  },
+  "에피바이오텍": {
+    "standard_code": "KR7446440000",
+    "short_code": "446440",
+    "name_kor": "에피바이오텍",
+    "name_eng": "Epi Biotech",
+    "name_abbr": "에피바이오텍"
+  },
+  "한국피아이엠": {
+    "standard_code": "KR7448900001",
+    "short_code": "448900",
+    "name_kor": "한국피아이엠",
+    "name_eng": "PIM KOREA",
+    "name_abbr": "한국피아이엠"
+  },
+  "바이오텐": {
+    "standard_code": "KR7289170003",
+    "short_code": "289170",
+    "name_kor": "바이오텐",
+    "name_eng": "Bioten",
+    "name_abbr": "바이오텐"
+  },
+  "미쥬": {
+    "standard_code": "KR7351020003",
+    "short_code": "351020",
+    "name_kor": "미쥬",
+    "name_eng": "MIJU",
+    "name_abbr": "미쥬"
+  },
+  "프로젠": {
+    "standard_code": "KR7296160005",
+    "short_code": "296160",
+    "name_kor": "프로젠",
+    "name_eng": "ProGen",
+    "name_abbr": "프로젠"
+  },
+  "세븐브로이맥주": {
+    "standard_code": "KR7267080000",
+    "short_code": "267080",
+    "name_kor": "세븐브로이맥주",
+    "name_eng": "Sevenbrau",
+    "name_abbr": "세븐브로이맥주"
+  },
+  "오건에코텍": {
+    "standard_code": "KR7212310007",
+    "short_code": "212310",
+    "name_kor": "오건에코텍",
+    "name_eng": "Organ Eco Tech",
+    "name_abbr": "오건에코텍"
+  },
+  "광동헬스바이오": {
+    "standard_code": "KR7086220001",
+    "short_code": "086220",
+    "name_kor": "광동헬스바이오",
+    "name_eng": "KwangdongHealthbio",
+    "name_abbr": "광동헬스바이오"
+  },
+  "로보쓰리에이아이": {
+    "standard_code": "KR7238500003",
+    "short_code": "238500",
+    "name_kor": "로보쓰리에이아이",
+    "name_eng": "Robo3 Ai",
+    "name_abbr": "로보쓰리에이아이"
+  },
+  "머니무브": {
+    "standard_code": "KR7179720008",
+    "short_code": "179720",
+    "name_kor": "머니무브",
+    "name_eng": "MoneyMove",
+    "name_abbr": "머니무브"
+  },
+  "팡스카이": {
+    "standard_code": "KR7266350008",
+    "short_code": "266350",
+    "name_kor": "팡스카이",
+    "name_eng": "PangSky",
+    "name_abbr": "팡스카이"
+  },
+  "타조엔터테인먼트": {
+    "standard_code": "KR7476710009",
+    "short_code": "476710",
+    "name_kor": "타조엔터테인먼트",
+    "name_eng": "TAJOYENT",
+    "name_abbr": "타조엔터테인먼트"
+  },
+  "도부": {
+    "standard_code": "KR7227420007",
+    "short_code": "227420",
+    "name_kor": "도부",
+    "name_eng": "DOBU",
+    "name_abbr": "도부"
+  },
+  "에이엠시지": {
+    "standard_code": "KR7495900003",
+    "short_code": "495900",
+    "name_kor": "에이엠시지",
+    "name_eng": "AMCG",
+    "name_abbr": "에이엠시지"
+  },
+  "유비씨": {
+    "standard_code": "KR7495810004",
+    "short_code": "495810",
+    "name_kor": "유비씨",
+    "name_eng": "UVC",
+    "name_abbr": "유비씨"
+  },
+  "창대정밀": {
+    "standard_code": "KR7368030003",
+    "short_code": "368030",
+    "name_kor": "창대정밀",
+    "name_eng": "CDP",
+    "name_abbr": "창대정밀"
+  },
+  "오션스바이오": {
+    "standard_code": "KR7332190008",
+    "short_code": "332190",
+    "name_kor": "오션스바이오",
+    "name_eng": "OceansBio",
+    "name_abbr": "오션스바이오"
+  },
+  "아이티센코어": {
+    "standard_code": "KR7243870003",
+    "short_code": "243870",
+    "name_kor": "아이티센코어",
+    "name_eng": "ITCENCORE",
+    "name_abbr": "아이티센코어"
+  },
+  "지에이이노더스": {
+    "standard_code": "KR7076340009",
+    "short_code": "076340",
+    "name_kor": "지에이이노더스",
+    "name_eng": "GA INNODUS",
+    "name_abbr": "지에이이노더스"
+  },
+  "인터로이드": {
+    "standard_code": "KR7311960009",
+    "short_code": "311960",
+    "name_kor": "인터로이드",
+    "name_eng": "InterRoid",
+    "name_abbr": "인터로이드"
+  },
+  "본시스템즈": {
+    "standard_code": "KR7496320003",
+    "short_code": "496320",
+    "name_kor": "본시스템즈",
+    "name_eng": "BSC",
+    "name_abbr": "본시스템즈"
+  },
+  "타조이엔터테인먼트": {
+    "standard_code": "KR7476710009",
+    "short_code": "476710",
+    "name_kor": "타조이엔터테인먼트",
+    "name_eng": "TAJOYENT",
+    "name_abbr": "타조이엔터테인먼트"
+  },
+  "아이엘커누스": {
+    "standard_code": "KR7403810005",
+    "short_code": "403810",
+    "name_kor": "아이엘커누스",
+    "name_eng": "IL CONUS",
+    "name_abbr": "아이엘커누스"
+  },
+  "엔더블유시": {
+    "standard_code": "KR7059180000",
+    "short_code": "059180",
+    "name_kor": "엔더블유시",
+    "name_eng": "NWC",
+    "name_abbr": "엔더블유시"
+  },
+  "레드우즈": {
+    "standard_code": "KR7266170000",
+    "short_code": "266170",
+    "name_kor": "레드우즈",
+    "name_eng": "REDWOODS",
+    "name_abbr": "레드우즈"
+  },
+  "아이엘로보틱스": {
+    "standard_code": "KR7403810005",
+    "short_code": "403810",
+    "name_kor": "아이엘로보틱스",
+    "name_eng": "IL ROBOTICS",
+    "name_abbr": "아이엘로보틱스"
+  }
+}

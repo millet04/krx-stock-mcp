@@ -20,7 +20,6 @@ class KrxStockClient:
                 LOGGER.exception(f"[KRX API] API request failed.Check if the url is valid: {url}")
                 return {}
         
-
     def make_request_sync(self, url: str) -> Dict[str, Any]:
         headers = {}
         if api_key := os.environ.get("KRX_API_KEY"):
@@ -32,7 +31,6 @@ class KrxStockClient:
         except Exception as e:
             LOGGER.exception(f"[KRX API] API request failed. Check if the url is valid: {url}")
             return {}
-
 
     async def fetch_stock_info(
         self,
@@ -50,9 +48,8 @@ class KrxStockClient:
         if not records:
             LOGGER.error(f"[KRX API] No market data found from API. Check if the date ({date}) is valid.")
 
-        return {record['ISU_NM']:record for record in records}
+        return {record['ISU_SRT_CD']:record for record in records}
         
-
     async def fetch_stock_info_sync(
         self,
         date: str,
@@ -69,8 +66,7 @@ class KrxStockClient:
         if not records:
             LOGGER.error(f"[KRX API] No market data found from API. Check if the date ({date}) is valid.")
                     
-        return {record['ISU_NM']:record for record in records}
-
+        return {record['ISU_SRT_CD']:record for record in records}
 
     async def fetch_stock_price(
         self,
@@ -88,8 +84,7 @@ class KrxStockClient:
         if not records:
             LOGGER.error(f"[KRX API] No market data found from API. Check if the date ({date}) is valid.")
         
-        return {record['ISU_NM']:record for record in records}
-
+        return {record['ISU_CD']:record for record in records}
 
     async def fetch_stock_price_sync(
         self,
@@ -107,4 +102,4 @@ class KrxStockClient:
         if not records:
             LOGGER.error(f"[KRX API] No market data found from API. Check if the date ({date}) is valid.")
         
-        return {record['ISU_NM']:record for record in records}  
+        return {record['ISU_CD']:record for record in records}  
